@@ -6,7 +6,6 @@ import java.time.LocalDate;
  * 
  * 
  * @author David Alejandro Chaparro Galvis
- * @author Juan Camilo Cepeda Carrenio
  * @version 2.0
  * 
  * 

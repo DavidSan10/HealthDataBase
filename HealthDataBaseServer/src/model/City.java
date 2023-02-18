@@ -9,10 +9,10 @@ public class City {
 		this.id = id;
 	}
 
-	public City(String id) {
-		this.id = id;
+	public City(String name) {
+		this.name = name;
 	}
-
+	
 	@Override
 	public String toString() {
 		return name + " " + id;

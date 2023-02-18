@@ -31,5 +31,80 @@ public class Patient{
 		this.isPositive = isPositive;
 	}
 
+	public String getFirstName() {
+		return firstName;
+	}
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
+	public String getLastName() {
+		return lastName;
+	}
+
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+
+	public String getIdString() {
+		return idString;
+	}
+
+	public void setIdString(String idString) {
+		this.idString = idString;
+	}
+
+	public DocumentType getTypeDocument() {
+		return typeDocument;
+	}
+
+	public void setTypeDocument(DocumentType typeDocument) {
+		this.typeDocument = typeDocument;
+	}
+
+	public String getDateOfBirth() {
+		return dateOfBirth;
+	}
+
+	public void setDateOfBirth(String dateOfBirth) {
+		this.dateOfBirth = dateOfBirth;
+	}
+
+	public String getTakeDay() {
+		return takeDay;
+	}
+
+	public void setTakeDay(String takeDay) {
+		this.takeDay = takeDay;
+	}
+
+	public boolean isVacuned() {
+		return isVacuned;
+	}
+
+	public void setVacuned(boolean isVacuned) {
+		this.isVacuned = isVacuned;
+	}
+
+	public Cormorbidities getTypeComobidities() {
+		return typeComobidities;
+	}
+
+	public void setTypeComobidities(Cormorbidities typeComobidities) {
+		this.typeComobidities = typeComobidities;
+	}
+
+	public boolean isPositive() {
+		return isPositive;
+	}
+
+	public void setPositive(boolean isPositive) {
+		this.isPositive = isPositive;
+	}
+
+	
+	
+	
 
 }

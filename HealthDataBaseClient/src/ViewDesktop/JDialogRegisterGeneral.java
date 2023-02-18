@@ -73,14 +73,14 @@ public class JDialogRegisterGeneral extends JDialog{
 	 * */
 	
 
-	public String getTxtId() {
-		return panelAddCity.getTxtId();
-	}
-
-
-	public void setTxtId(String text) {
-		panelAddCity.setTxtId(text);;
-	}
+//	public String getTxtId() {
+//		return panelAddCity.getTxtId();
+//	}
+//
+//
+//	public void setTxtId(String text) {
+//		panelAddCity.setTxtId(text);;
+//	}
 
 
 	public String getTxtName() {
@@ -129,9 +129,9 @@ public class JDialogRegisterGeneral extends JDialog{
 	 * 
 	 * */
 	
-	public String getTxtIdHealthPost() {
-		return panelAddHealthPost.getTxtId();
-	}
+//	public String getTxtIdHealthPost() {
+//		return panelAddHealthPost.getTxtId();
+//	}
 
 	public String getNameHealthPost() {
 		return panelAddHealthPost.getTxtName();

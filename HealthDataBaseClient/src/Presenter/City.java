@@ -3,13 +3,36 @@ package Presenter;
 public class City {
 	private String name;
 	private String id;
-
-
-
-	public City(String id,String name) {
+	//private static int idCount = 1;
+	
+	
+	public City(String name) {
 		this.name = name;
-		this.id = id;
+//		System.out.println("Contador de cuidad"+ idCount);
+//		this.id = ""+ idCount++;
 	}
 
+	public String getName() {
+		return name;
+	}
+
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+
+	public String getId() {
+		return id;
+	}
+
+
+//	public static int getIdCount() {
+//		return idCount;
+//	}
+//
+//	
+	
+	
 
 }

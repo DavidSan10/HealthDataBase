@@ -1,0 +1,2905 @@
+{
+  "root": {
+    "data": {
+      "id": "1",
+      "name": "hospital de tunja",
+      "city": {
+        "name": "tunja",
+        "id": "1"
+      },
+      "treePatient": {
+        "list": [],
+        "count": 0
+      }
+    },
+    "derecha": {
+      "data": {
+        "id": "2",
+        "name": "Hospital de paipa",
+        "city": {
+          "name": "paipa",
+          "id": "2"
+        },
+        "treePatient": {
+          "root": {
+            "data": {
+              "takeDay": "2021-08-20",
+              "isVacuned": true,
+              "typeComobidities": "DIGESTIVE",
+              "isPositive": true,
+              "firstName": "chamo",
+              "lastName": "guitierez",
+              "idString": "31231983",
+              "typeDocument": "PASSPORT",
+              "dateOfBirth": "1987-09-20"
+            },
+            "izquierda": {
+              "data": {
+                "takeDay": "2021-10-28",
+                "isVacuned": true,
+                "typeComobidities": "NERVOUS",
+                "isPositive": false,
+                "firstName": "jaime",
+                "lastName": "alonso",
+                "idString": "1231231023",
+                "typeDocument": "IMMIGRATION_CARD",
+                "dateOfBirth": "2000-09-28"
+              }
+            }
+          },
+          "list": [
+            {
+              "data": {
+                "takeDay": "2021-10-28",
+                "isVacuned": true,
+                "typeComobidities": "NERVOUS",
+                "isPositive": false,
+                "firstName": "jaime",
+                "lastName": "alonso",
+                "idString": "1231231023",
+                "typeDocument": "IMMIGRATION_CARD",
+                "dateOfBirth": "2000-09-28"
+              }
+            },
+            {
+              "data": {
+                "takeDay": "2021-08-20",
+                "isVacuned": true,
+                "typeComobidities": "DIGESTIVE",
+                "isPositive": true,
+                "firstName": "chamo",
+                "lastName": "guitierez",
+                "idString": "31231983",
+                "typeDocument": "PASSPORT",
+                "dateOfBirth": "1987-09-20"
+              },
+              "izquierda": {
+                "data": {
+                  "takeDay": "2021-10-28",
+                  "isVacuned": true,
+                  "typeComobidities": "NERVOUS",
+                  "isPositive": false,
+                  "firstName": "jaime",
+                  "lastName": "alonso",
+                  "idString": "1231231023",
+                  "typeDocument": "IMMIGRATION_CARD",
+                  "dateOfBirth": "2000-09-28"
+                }
+              }
+            }
+          ],
+          "count": 0
+        }
+      },
+      "derecha": {
+        "data": {
+          "id": "3",
+          "name": "clinica tunja",
+          "city": {
+            "name": "tunja",
+            "id": "1"
+          },
+          "treePatient": {
+            "root": {
+              "data": {
+                "takeDay": "2021-08-29",
+                "isVacuned": true,
+                "typeComobidities": "CARDIOVASCULAR",
+                "isPositive": true,
+                "firstName": "julian",
+                "lastName": "torrez",
+                "idString": "32203022",
+                "typeDocument": "IMMIGRATION_CARD",
+                "dateOfBirth": "2000-10-20"
+              },
+              "izquierda": {
+                "data": {
+                  "takeDay": "2021-10-28",
+                  "isVacuned": true,
+                  "typeComobidities": "RESPIRATORY",
+                  "isPositive": false,
+                  "firstName": "jermo",
+                  "lastName": "cuta",
+                  "idString": "23123102",
+                  "typeDocument": "IMMIGRATION_CARD",
+                  "dateOfBirth": "2001-09-20"
+                }
+              }
+            },
+            "list": [
+              {
+                "data": {
+                  "takeDay": "2021-10-28",
+                  "isVacuned": true,
+                  "typeComobidities": "RESPIRATORY",
+                  "isPositive": false,
+                  "firstName": "jermo",
+                  "lastName": "cuta",
+                  "idString": "23123102",
+                  "typeDocument": "IMMIGRATION_CARD",
+                  "dateOfBirth": "2001-09-20"
+                }
+              },
+              {
+                "data": {
+                  "takeDay": "2021-08-29",
+                  "isVacuned": true,
+                  "typeComobidities": "CARDIOVASCULAR",
+                  "isPositive": true,
+                  "firstName": "julian",
+                  "lastName": "torrez",
+                  "idString": "32203022",
+                  "typeDocument": "IMMIGRATION_CARD",
+                  "dateOfBirth": "2000-10-20"
+                },
+                "izquierda": {
+                  "data": {
+                    "takeDay": "2021-10-28",
+                    "isVacuned": true,
+                    "typeComobidities": "RESPIRATORY",
+                    "isPositive": false,
+                    "firstName": "jermo",
+                    "lastName": "cuta",
+                    "idString": "23123102",
+                    "typeDocument": "IMMIGRATION_CARD",
+                    "dateOfBirth": "2001-09-20"
+                  }
+                }
+              }
+            ],
+            "count": 0
+          }
+        },
+        "derecha": {
+          "data": {
+            "id": "4",
+            "name": "hospital de cucuta",
+            "city": {
+              "name": "cucuta",
+              "id": "3"
+            },
+            "treePatient": {
+              "list": [],
+              "count": 0
+            }
+          },
+          "derecha": {
+            "data": {
+              "id": "5",
+              "name": "hospital de cuta",
+              "city": {
+                "name": "cuta",
+                "id": "4"
+              },
+              "treePatient": {
+                "list": [],
+                "count": 0
+              }
+            },
+            "derecha": {
+              "data": {
+                "id": "6",
+                "name": "clinica los especialistas",
+                "city": {
+                  "name": "sogamoso",
+                  "id": "5"
+                },
+                "treePatient": {
+                  "root": {
+                    "data": {
+                      "takeDay": "2021-09-28",
+                      "isVacuned": false,
+                      "typeComobidities": "MENTAL",
+                      "isPositive": false,
+                      "firstName": "julian",
+                      "lastName": "pacheco",
+                      "idString": "13123023",
+                      "typeDocument": "CITIZENSHIP_CARD",
+                      "dateOfBirth": "2001-10-19"
+                    }
+                  },
+                  "list": [
+                    {
+                      "data": {
+                        "takeDay": "2021-09-28",
+                        "isVacuned": false,
+                        "typeComobidities": "MENTAL",
+                        "isPositive": false,
+                        "firstName": "julian",
+                        "lastName": "pacheco",
+                        "idString": "13123023",
+                        "typeDocument": "CITIZENSHIP_CARD",
+                        "dateOfBirth": "2001-10-19"
+                      }
+                    }
+                  ],
+                  "count": 0
+                }
+              },
+              "derecha": {
+                "data": {
+                  "id": "7",
+                  "name": "hospital de medellin",
+                  "city": {
+                    "name": "medellin",
+                    "id": "6"
+                  },
+                  "treePatient": {
+                    "list": [],
+                    "count": 0
+                  }
+                },
+                "derecha": {
+                  "data": {
+                    "id": "8",
+                    "name": "hospital de manizales",
+                    "city": {
+                      "name": "manizales",
+                      "id": "7"
+                    },
+                    "treePatient": {
+                      "list": [],
+                      "count": 0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "izquierda": {
+          "data": {
+            "id": "20",
+            "name": "segundo tulio",
+            "city": {
+              "name": "manizales",
+              "id": "7"
+            },
+            "treePatient": {
+              "list": [],
+              "count": 0
+            }
+          },
+          "derecha": {
+            "data": {
+              "id": "21",
+              "name": "hospital universitario",
+              "city": {
+                "name": "santa marta",
+                "id": "8"
+              },
+              "treePatient": {
+                "list": [],
+                "count": 0
+              }
+            },
+            "derecha": {
+              "data": {
+                "id": "22",
+                "name": "hospital de pereira",
+                "city": {
+                  "name": "pereira",
+                  "id": "18"
+                },
+                "treePatient": {
+                  "root": {
+                    "data": {
+                      "takeDay": "2021-09-28",
+                      "isVacuned": false,
+                      "typeComobidities": "MUSCULAR",
+                      "isPositive": true,
+                      "firstName": "santiago",
+                      "lastName": "chaparro",
+                      "idString": "23923012",
+                      "typeDocument": "CITIZENSHIP_CARD",
+                      "dateOfBirth": "1977-08-29"
+                    },
+                    "izquierda": {
+                      "data": {
+                        "takeDay": "2021-09-20",
+                        "isVacuned": true,
+                        "typeComobidities": "NERVOUS",
+                        "isPositive": true,
+                        "firstName": "jaime",
+                        "lastName": "saenz",
+                        "idString": "12129303",
+                        "typeDocument": "CITIZENSHIP_CARD",
+                        "dateOfBirth": "2000-08-29"
+                      },
+                      "derecha": {
+                        "data": {
+                          "takeDay": "2021-10-17",
+                          "isVacuned": true,
+                          "typeComobidities": "RESPIRATORY",
+                          "isPositive": true,
+                          "firstName": "jimenez",
+                          "lastName": "torres",
+                          "idString": "232301231",
+                          "typeDocument": "CITIZENSHIP_CARD",
+                          "dateOfBirth": "2000-10-20"
+                        }
+                      }
+                    }
+                  },
+                  "list": [
+                    {
+                      "data": {
+                        "takeDay": "2021-09-20",
+                        "isVacuned": true,
+                        "typeComobidities": "NERVOUS",
+                        "isPositive": true,
+                        "firstName": "jaime",
+                        "lastName": "saenz",
+                        "idString": "12129303",
+                        "typeDocument": "CITIZENSHIP_CARD",
+                        "dateOfBirth": "2000-08-29"
+                      },
+                      "derecha": {
+                        "data": {
+                          "takeDay": "2021-10-17",
+                          "isVacuned": true,
+                          "typeComobidities": "RESPIRATORY",
+                          "isPositive": true,
+                          "firstName": "jimenez",
+                          "lastName": "torres",
+                          "idString": "232301231",
+                          "typeDocument": "CITIZENSHIP_CARD",
+                          "dateOfBirth": "2000-10-20"
+                        }
+                      }
+                    },
+                    {
+                      "data": {
+                        "takeDay": "2021-10-17",
+                        "isVacuned": true,
+                        "typeComobidities": "RESPIRATORY",
+                        "isPositive": true,
+                        "firstName": "jimenez",
+                        "lastName": "torres",
+                        "idString": "232301231",
+                        "typeDocument": "CITIZENSHIP_CARD",
+                        "dateOfBirth": "2000-10-20"
+                      }
+                    },
+                    {
+                      "data": {
+                        "takeDay": "2021-09-28",
+                        "isVacuned": false,
+                        "typeComobidities": "MUSCULAR",
+                        "isPositive": true,
+                        "firstName": "santiago",
+                        "lastName": "chaparro",
+                        "idString": "23923012",
+                        "typeDocument": "CITIZENSHIP_CARD",
+                        "dateOfBirth": "1977-08-29"
+                      },
+                      "izquierda": {
+                        "data": {
+                          "takeDay": "2021-09-20",
+                          "isVacuned": true,
+                          "typeComobidities": "NERVOUS",
+                          "isPositive": true,
+                          "firstName": "jaime",
+                          "lastName": "saenz",
+                          "idString": "12129303",
+                          "typeDocument": "CITIZENSHIP_CARD",
+                          "dateOfBirth": "2000-08-29"
+                        },
+                        "derecha": {
+                          "data": {
+                            "takeDay": "2021-10-17",
+                            "isVacuned": true,
+                            "typeComobidities": "RESPIRATORY",
+                            "isPositive": true,
+                            "firstName": "jimenez",
+                            "lastName": "torres",
+                            "idString": "232301231",
+                            "typeDocument": "CITIZENSHIP_CARD",
+                            "dateOfBirth": "2000-10-20"
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "count": 0
+                }
+              },
+              "derecha": {
+                "data": {
+                  "id": "23",
+                  "name": "clinica san jose",
+                  "city": {
+                    "name": "manizales",
+                    "id": "7"
+                  },
+                  "treePatient": {
+                    "list": [],
+                    "count": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "izquierda": {
+        "data": {
+          "id": "10",
+          "name": "hospital de santa marta",
+          "city": {
+            "name": "santa marta",
+            "id": "8"
+          },
+          "treePatient": {
+            "list": [],
+            "count": 0
+          }
+        },
+        "derecha": {
+          "data": {
+            "id": "11",
+            "name": "hospital julio mendez",
+            "city": {
+              "name": "santa marta",
+              "id": "8"
+            },
+            "treePatient": {
+              "root": {
+                "data": {
+                  "takeDay": "2020-09-28",
+                  "isVacuned": false,
+                  "typeComobidities": "DIGESTIVE",
+                  "isPositive": true,
+                  "firstName": "prueba",
+                  "lastName": "jimenez",
+                  "idString": "13193120",
+                  "typeDocument": "IMMIGRATION_CARD",
+                  "dateOfBirth": "2000-09-20"
+                }
+              },
+              "list": [
+                {
+                  "data": {
+                    "takeDay": "2020-09-28",
+                    "isVacuned": false,
+                    "typeComobidities": "DIGESTIVE",
+                    "isPositive": true,
+                    "firstName": "prueba",
+                    "lastName": "jimenez",
+                    "idString": "13193120",
+                    "typeDocument": "IMMIGRATION_CARD",
+                    "dateOfBirth": "2000-09-20"
+                  }
+                }
+              ],
+              "count": 0
+            }
+          },
+          "derecha": {
+            "data": {
+              "id": "15",
+              "name": "hospital de tumami",
+              "city": {
+                "name": "tumami",
+                "id": "10"
+              },
+              "treePatient": {
+                "list": [],
+                "count": 0
+              }
+            },
+            "derecha": {
+              "data": {
+                "id": "18",
+                "name": "hospital de cauca",
+                "city": {
+                  "name": "cauca",
+                  "id": "17"
+                },
+                "treePatient": {
+                  "list": [],
+                  "count": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "list": [
+    {
+      "data": {
+        "id": "1",
+        "name": "hospital de tunja",
+        "city": {
+          "name": "tunja",
+          "id": "1"
+        },
+        "treePatient": {
+          "list": [],
+          "count": 0
+        }
+      },
+      "derecha": {
+        "data": {
+          "id": "2",
+          "name": "Hospital de paipa",
+          "city": {
+            "name": "paipa",
+            "id": "2"
+          },
+          "treePatient": {
+            "root": {
+              "data": {
+                "takeDay": "2021-08-20",
+                "isVacuned": true,
+                "typeComobidities": "DIGESTIVE",
+                "isPositive": true,
+                "firstName": "chamo",
+                "lastName": "guitierez",
+                "idString": "31231983",
+                "typeDocument": "PASSPORT",
+                "dateOfBirth": "1987-09-20"
+              },
+              "izquierda": {
+                "data": {
+                  "takeDay": "2021-10-28",
+                  "isVacuned": true,
+                  "typeComobidities": "NERVOUS",
+                  "isPositive": false,
+                  "firstName": "jaime",
+                  "lastName": "alonso",
+                  "idString": "1231231023",
+                  "typeDocument": "IMMIGRATION_CARD",
+                  "dateOfBirth": "2000-09-28"
+                }
+              }
+            },
+            "list": [
+              {
+                "data": {
+                  "takeDay": "2021-10-28",
+                  "isVacuned": true,
+                  "typeComobidities": "NERVOUS",
+                  "isPositive": false,
+                  "firstName": "jaime",
+                  "lastName": "alonso",
+                  "idString": "1231231023",
+                  "typeDocument": "IMMIGRATION_CARD",
+                  "dateOfBirth": "2000-09-28"
+                }
+              },
+              {
+                "data": {
+                  "takeDay": "2021-08-20",
+                  "isVacuned": true,
+                  "typeComobidities": "DIGESTIVE",
+                  "isPositive": true,
+                  "firstName": "chamo",
+                  "lastName": "guitierez",
+                  "idString": "31231983",
+                  "typeDocument": "PASSPORT",
+                  "dateOfBirth": "1987-09-20"
+                },
+                "izquierda": {
+                  "data": {
+                    "takeDay": "2021-10-28",
+                    "isVacuned": true,
+                    "typeComobidities": "NERVOUS",
+                    "isPositive": false,
+                    "firstName": "jaime",
+                    "lastName": "alonso",
+                    "idString": "1231231023",
+                    "typeDocument": "IMMIGRATION_CARD",
+                    "dateOfBirth": "2000-09-28"
+                  }
+                }
+              }
+            ],
+            "count": 0
+          }
+        },
+        "derecha": {
+          "data": {
+            "id": "3",
+            "name": "clinica tunja",
+            "city": {
+              "name": "tunja",
+              "id": "1"
+            },
+            "treePatient": {
+              "root": {
+                "data": {
+                  "takeDay": "2021-08-29",
+                  "isVacuned": true,
+                  "typeComobidities": "CARDIOVASCULAR",
+                  "isPositive": true,
+                  "firstName": "julian",
+                  "lastName": "torrez",
+                  "idString": "32203022",
+                  "typeDocument": "IMMIGRATION_CARD",
+                  "dateOfBirth": "2000-10-20"
+                },
+                "izquierda": {
+                  "data": {
+                    "takeDay": "2021-10-28",
+                    "isVacuned": true,
+                    "typeComobidities": "RESPIRATORY",
+                    "isPositive": false,
+                    "firstName": "jermo",
+                    "lastName": "cuta",
+                    "idString": "23123102",
+                    "typeDocument": "IMMIGRATION_CARD",
+                    "dateOfBirth": "2001-09-20"
+                  }
+                }
+              },
+              "list": [
+                {
+                  "data": {
+                    "takeDay": "2021-10-28",
+                    "isVacuned": true,
+                    "typeComobidities": "RESPIRATORY",
+                    "isPositive": false,
+                    "firstName": "jermo",
+                    "lastName": "cuta",
+                    "idString": "23123102",
+                    "typeDocument": "IMMIGRATION_CARD",
+                    "dateOfBirth": "2001-09-20"
+                  }
+                },
+                {
+                  "data": {
+                    "takeDay": "2021-08-29",
+                    "isVacuned": true,
+                    "typeComobidities": "CARDIOVASCULAR",
+                    "isPositive": true,
+                    "firstName": "julian",
+                    "lastName": "torrez",
+                    "idString": "32203022",
+                    "typeDocument": "IMMIGRATION_CARD",
+                    "dateOfBirth": "2000-10-20"
+                  },
+                  "izquierda": {
+                    "data": {
+                      "takeDay": "2021-10-28",
+                      "isVacuned": true,
+                      "typeComobidities": "RESPIRATORY",
+                      "isPositive": false,
+                      "firstName": "jermo",
+                      "lastName": "cuta",
+                      "idString": "23123102",
+                      "typeDocument": "IMMIGRATION_CARD",
+                      "dateOfBirth": "2001-09-20"
+                    }
+                  }
+                }
+              ],
+              "count": 0
+            }
+          },
+          "derecha": {
+            "data": {
+              "id": "4",
+              "name": "hospital de cucuta",
+              "city": {
+                "name": "cucuta",
+                "id": "3"
+              },
+              "treePatient": {
+                "list": [],
+                "count": 0
+              }
+            },
+            "derecha": {
+              "data": {
+                "id": "5",
+                "name": "hospital de cuta",
+                "city": {
+                  "name": "cuta",
+                  "id": "4"
+                },
+                "treePatient": {
+                  "list": [],
+                  "count": 0
+                }
+              },
+              "derecha": {
+                "data": {
+                  "id": "6",
+                  "name": "clinica los especialistas",
+                  "city": {
+                    "name": "sogamoso",
+                    "id": "5"
+                  },
+                  "treePatient": {
+                    "root": {
+                      "data": {
+                        "takeDay": "2021-09-28",
+                        "isVacuned": false,
+                        "typeComobidities": "MENTAL",
+                        "isPositive": false,
+                        "firstName": "julian",
+                        "lastName": "pacheco",
+                        "idString": "13123023",
+                        "typeDocument": "CITIZENSHIP_CARD",
+                        "dateOfBirth": "2001-10-19"
+                      }
+                    },
+                    "list": [
+                      {
+                        "data": {
+                          "takeDay": "2021-09-28",
+                          "isVacuned": false,
+                          "typeComobidities": "MENTAL",
+                          "isPositive": false,
+                          "firstName": "julian",
+                          "lastName": "pacheco",
+                          "idString": "13123023",
+                          "typeDocument": "CITIZENSHIP_CARD",
+                          "dateOfBirth": "2001-10-19"
+                        }
+                      }
+                    ],
+                    "count": 0
+                  }
+                },
+                "derecha": {
+                  "data": {
+                    "id": "7",
+                    "name": "hospital de medellin",
+                    "city": {
+                      "name": "medellin",
+                      "id": "6"
+                    },
+                    "treePatient": {
+                      "list": [],
+                      "count": 0
+                    }
+                  },
+                  "derecha": {
+                    "data": {
+                      "id": "8",
+                      "name": "hospital de manizales",
+                      "city": {
+                        "name": "manizales",
+                        "id": "7"
+                      },
+                      "treePatient": {
+                        "list": [],
+                        "count": 0
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "izquierda": {
+            "data": {
+              "id": "20",
+              "name": "segundo tulio",
+              "city": {
+                "name": "manizales",
+                "id": "7"
+              },
+              "treePatient": {
+                "list": [],
+                "count": 0
+              }
+            },
+            "derecha": {
+              "data": {
+                "id": "21",
+                "name": "hospital universitario",
+                "city": {
+                  "name": "santa marta",
+                  "id": "8"
+                },
+                "treePatient": {
+                  "list": [],
+                  "count": 0
+                }
+              },
+              "derecha": {
+                "data": {
+                  "id": "22",
+                  "name": "hospital de pereira",
+                  "city": {
+                    "name": "pereira",
+                    "id": "18"
+                  },
+                  "treePatient": {
+                    "root": {
+                      "data": {
+                        "takeDay": "2021-09-28",
+                        "isVacuned": false,
+                        "typeComobidities": "MUSCULAR",
+                        "isPositive": true,
+                        "firstName": "santiago",
+                        "lastName": "chaparro",
+                        "idString": "23923012",
+                        "typeDocument": "CITIZENSHIP_CARD",
+                        "dateOfBirth": "1977-08-29"
+                      },
+                      "izquierda": {
+                        "data": {
+                          "takeDay": "2021-09-20",
+                          "isVacuned": true,
+                          "typeComobidities": "NERVOUS",
+                          "isPositive": true,
+                          "firstName": "jaime",
+                          "lastName": "saenz",
+                          "idString": "12129303",
+                          "typeDocument": "CITIZENSHIP_CARD",
+                          "dateOfBirth": "2000-08-29"
+                        },
+                        "derecha": {
+                          "data": {
+                            "takeDay": "2021-10-17",
+                            "isVacuned": true,
+                            "typeComobidities": "RESPIRATORY",
+                            "isPositive": true,
+                            "firstName": "jimenez",
+                            "lastName": "torres",
+                            "idString": "232301231",
+                            "typeDocument": "CITIZENSHIP_CARD",
+                            "dateOfBirth": "2000-10-20"
+                          }
+                        }
+                      }
+                    },
+                    "list": [
+                      {
+                        "data": {
+                          "takeDay": "2021-09-20",
+                          "isVacuned": true,
+                          "typeComobidities": "NERVOUS",
+                          "isPositive": true,
+                          "firstName": "jaime",
+                          "lastName": "saenz",
+                          "idString": "12129303",
+                          "typeDocument": "CITIZENSHIP_CARD",
+                          "dateOfBirth": "2000-08-29"
+                        },
+                        "derecha": {
+                          "data": {
+                            "takeDay": "2021-10-17",
+                            "isVacuned": true,
+                            "typeComobidities": "RESPIRATORY",
+                            "isPositive": true,
+                            "firstName": "jimenez",
+                            "lastName": "torres",
+                            "idString": "232301231",
+                            "typeDocument": "CITIZENSHIP_CARD",
+                            "dateOfBirth": "2000-10-20"
+                          }
+                        }
+                      },
+                      {
+                        "data": {
+                          "takeDay": "2021-10-17",
+                          "isVacuned": true,
+                          "typeComobidities": "RESPIRATORY",
+                          "isPositive": true,
+                          "firstName": "jimenez",
+                          "lastName": "torres",
+                          "idString": "232301231",
+                          "typeDocument": "CITIZENSHIP_CARD",
+                          "dateOfBirth": "2000-10-20"
+                        }
+                      },
+                      {
+                        "data": {
+                          "takeDay": "2021-09-28",
+                          "isVacuned": false,
+                          "typeComobidities": "MUSCULAR",
+                          "isPositive": true,
+                          "firstName": "santiago",
+                          "lastName": "chaparro",
+                          "idString": "23923012",
+                          "typeDocument": "CITIZENSHIP_CARD",
+                          "dateOfBirth": "1977-08-29"
+                        },
+                        "izquierda": {
+                          "data": {
+                            "takeDay": "2021-09-20",
+                            "isVacuned": true,
+                            "typeComobidities": "NERVOUS",
+                            "isPositive": true,
+                            "firstName": "jaime",
+                            "lastName": "saenz",
+                            "idString": "12129303",
+                            "typeDocument": "CITIZENSHIP_CARD",
+                            "dateOfBirth": "2000-08-29"
+                          },
+                          "derecha": {
+                            "data": {
+                              "takeDay": "2021-10-17",
+                              "isVacuned": true,
+                              "typeComobidities": "RESPIRATORY",
+                              "isPositive": true,
+                              "firstName": "jimenez",
+                              "lastName": "torres",
+                              "idString": "232301231",
+                              "typeDocument": "CITIZENSHIP_CARD",
+                              "dateOfBirth": "2000-10-20"
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "count": 0
+                  }
+                },
+                "derecha": {
+                  "data": {
+                    "id": "23",
+                    "name": "clinica san jose",
+                    "city": {
+                      "name": "manizales",
+                      "id": "7"
+                    },
+                    "treePatient": {
+                      "list": [],
+                      "count": 0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "izquierda": {
+          "data": {
+            "id": "10",
+            "name": "hospital de santa marta",
+            "city": {
+              "name": "santa marta",
+              "id": "8"
+            },
+            "treePatient": {
+              "list": [],
+              "count": 0
+            }
+          },
+          "derecha": {
+            "data": {
+              "id": "11",
+              "name": "hospital julio mendez",
+              "city": {
+                "name": "santa marta",
+                "id": "8"
+              },
+              "treePatient": {
+                "root": {
+                  "data": {
+                    "takeDay": "2020-09-28",
+                    "isVacuned": false,
+                    "typeComobidities": "DIGESTIVE",
+                    "isPositive": true,
+                    "firstName": "prueba",
+                    "lastName": "jimenez",
+                    "idString": "13193120",
+                    "typeDocument": "IMMIGRATION_CARD",
+                    "dateOfBirth": "2000-09-20"
+                  }
+                },
+                "list": [
+                  {
+                    "data": {
+                      "takeDay": "2020-09-28",
+                      "isVacuned": false,
+                      "typeComobidities": "DIGESTIVE",
+                      "isPositive": true,
+                      "firstName": "prueba",
+                      "lastName": "jimenez",
+                      "idString": "13193120",
+                      "typeDocument": "IMMIGRATION_CARD",
+                      "dateOfBirth": "2000-09-20"
+                    }
+                  }
+                ],
+                "count": 0
+              }
+            },
+            "derecha": {
+              "data": {
+                "id": "15",
+                "name": "hospital de tumami",
+                "city": {
+                  "name": "tumami",
+                  "id": "10"
+                },
+                "treePatient": {
+                  "list": [],
+                  "count": 0
+                }
+              },
+              "derecha": {
+                "data": {
+                  "id": "18",
+                  "name": "hospital de cauca",
+                  "city": {
+                    "name": "cauca",
+                    "id": "17"
+                  },
+                  "treePatient": {
+                    "list": [],
+                    "count": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "10",
+        "name": "hospital de santa marta",
+        "city": {
+          "name": "santa marta",
+          "id": "8"
+        },
+        "treePatient": {
+          "list": [],
+          "count": 0
+        }
+      },
+      "derecha": {
+        "data": {
+          "id": "11",
+          "name": "hospital julio mendez",
+          "city": {
+            "name": "santa marta",
+            "id": "8"
+          },
+          "treePatient": {
+            "root": {
+              "data": {
+                "takeDay": "2020-09-28",
+                "isVacuned": false,
+                "typeComobidities": "DIGESTIVE",
+                "isPositive": true,
+                "firstName": "prueba",
+                "lastName": "jimenez",
+                "idString": "13193120",
+                "typeDocument": "IMMIGRATION_CARD",
+                "dateOfBirth": "2000-09-20"
+              }
+            },
+            "list": [
+              {
+                "data": {
+                  "takeDay": "2020-09-28",
+                  "isVacuned": false,
+                  "typeComobidities": "DIGESTIVE",
+                  "isPositive": true,
+                  "firstName": "prueba",
+                  "lastName": "jimenez",
+                  "idString": "13193120",
+                  "typeDocument": "IMMIGRATION_CARD",
+                  "dateOfBirth": "2000-09-20"
+                }
+              }
+            ],
+            "count": 0
+          }
+        },
+        "derecha": {
+          "data": {
+            "id": "15",
+            "name": "hospital de tumami",
+            "city": {
+              "name": "tumami",
+              "id": "10"
+            },
+            "treePatient": {
+              "list": [],
+              "count": 0
+            }
+          },
+          "derecha": {
+            "data": {
+              "id": "18",
+              "name": "hospital de cauca",
+              "city": {
+                "name": "cauca",
+                "id": "17"
+              },
+              "treePatient": {
+                "list": [],
+                "count": 0
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "11",
+        "name": "hospital julio mendez",
+        "city": {
+          "name": "santa marta",
+          "id": "8"
+        },
+        "treePatient": {
+          "root": {
+            "data": {
+              "takeDay": "2020-09-28",
+              "isVacuned": false,
+              "typeComobidities": "DIGESTIVE",
+              "isPositive": true,
+              "firstName": "prueba",
+              "lastName": "jimenez",
+              "idString": "13193120",
+              "typeDocument": "IMMIGRATION_CARD",
+              "dateOfBirth": "2000-09-20"
+            }
+          },
+          "list": [
+            {
+              "data": {
+                "takeDay": "2020-09-28",
+                "isVacuned": false,
+                "typeComobidities": "DIGESTIVE",
+                "isPositive": true,
+                "firstName": "prueba",
+                "lastName": "jimenez",
+                "idString": "13193120",
+                "typeDocument": "IMMIGRATION_CARD",
+                "dateOfBirth": "2000-09-20"
+              }
+            }
+          ],
+          "count": 0
+        }
+      },
+      "derecha": {
+        "data": {
+          "id": "15",
+          "name": "hospital de tumami",
+          "city": {
+            "name": "tumami",
+            "id": "10"
+          },
+          "treePatient": {
+            "list": [],
+            "count": 0
+          }
+        },
+        "derecha": {
+          "data": {
+            "id": "18",
+            "name": "hospital de cauca",
+            "city": {
+              "name": "cauca",
+              "id": "17"
+            },
+            "treePatient": {
+              "list": [],
+              "count": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "15",
+        "name": "hospital de tumami",
+        "city": {
+          "name": "tumami",
+          "id": "10"
+        },
+        "treePatient": {
+          "list": [],
+          "count": 0
+        }
+      },
+      "derecha": {
+        "data": {
+          "id": "18",
+          "name": "hospital de cauca",
+          "city": {
+            "name": "cauca",
+            "id": "17"
+          },
+          "treePatient": {
+            "list": [],
+            "count": 0
+          }
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "18",
+        "name": "hospital de cauca",
+        "city": {
+          "name": "cauca",
+          "id": "17"
+        },
+        "treePatient": {
+          "list": [],
+          "count": 0
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "2",
+        "name": "Hospital de paipa",
+        "city": {
+          "name": "paipa",
+          "id": "2"
+        },
+        "treePatient": {
+          "root": {
+            "data": {
+              "takeDay": "2021-08-20",
+              "isVacuned": true,
+              "typeComobidities": "DIGESTIVE",
+              "isPositive": true,
+              "firstName": "chamo",
+              "lastName": "guitierez",
+              "idString": "31231983",
+              "typeDocument": "PASSPORT",
+              "dateOfBirth": "1987-09-20"
+            },
+            "izquierda": {
+              "data": {
+                "takeDay": "2021-10-28",
+                "isVacuned": true,
+                "typeComobidities": "NERVOUS",
+                "isPositive": false,
+                "firstName": "jaime",
+                "lastName": "alonso",
+                "idString": "1231231023",
+                "typeDocument": "IMMIGRATION_CARD",
+                "dateOfBirth": "2000-09-28"
+              }
+            }
+          },
+          "list": [
+            {
+              "data": {
+                "takeDay": "2021-10-28",
+                "isVacuned": true,
+                "typeComobidities": "NERVOUS",
+                "isPositive": false,
+                "firstName": "jaime",
+                "lastName": "alonso",
+                "idString": "1231231023",
+                "typeDocument": "IMMIGRATION_CARD",
+                "dateOfBirth": "2000-09-28"
+              }
+            },
+            {
+              "data": {
+                "takeDay": "2021-08-20",
+                "isVacuned": true,
+                "typeComobidities": "DIGESTIVE",
+                "isPositive": true,
+                "firstName": "chamo",
+                "lastName": "guitierez",
+                "idString": "31231983",
+                "typeDocument": "PASSPORT",
+                "dateOfBirth": "1987-09-20"
+              },
+              "izquierda": {
+                "data": {
+                  "takeDay": "2021-10-28",
+                  "isVacuned": true,
+                  "typeComobidities": "NERVOUS",
+                  "isPositive": false,
+                  "firstName": "jaime",
+                  "lastName": "alonso",
+                  "idString": "1231231023",
+                  "typeDocument": "IMMIGRATION_CARD",
+                  "dateOfBirth": "2000-09-28"
+                }
+              }
+            }
+          ],
+          "count": 0
+        }
+      },
+      "derecha": {
+        "data": {
+          "id": "3",
+          "name": "clinica tunja",
+          "city": {
+            "name": "tunja",
+            "id": "1"
+          },
+          "treePatient": {
+            "root": {
+              "data": {
+                "takeDay": "2021-08-29",
+                "isVacuned": true,
+                "typeComobidities": "CARDIOVASCULAR",
+                "isPositive": true,
+                "firstName": "julian",
+                "lastName": "torrez",
+                "idString": "32203022",
+                "typeDocument": "IMMIGRATION_CARD",
+                "dateOfBirth": "2000-10-20"
+              },
+              "izquierda": {
+                "data": {
+                  "takeDay": "2021-10-28",
+                  "isVacuned": true,
+                  "typeComobidities": "RESPIRATORY",
+                  "isPositive": false,
+                  "firstName": "jermo",
+                  "lastName": "cuta",
+                  "idString": "23123102",
+                  "typeDocument": "IMMIGRATION_CARD",
+                  "dateOfBirth": "2001-09-20"
+                }
+              }
+            },
+            "list": [
+              {
+                "data": {
+                  "takeDay": "2021-10-28",
+                  "isVacuned": true,
+                  "typeComobidities": "RESPIRATORY",
+                  "isPositive": false,
+                  "firstName": "jermo",
+                  "lastName": "cuta",
+                  "idString": "23123102",
+                  "typeDocument": "IMMIGRATION_CARD",
+                  "dateOfBirth": "2001-09-20"
+                }
+              },
+              {
+                "data": {
+                  "takeDay": "2021-08-29",
+                  "isVacuned": true,
+                  "typeComobidities": "CARDIOVASCULAR",
+                  "isPositive": true,
+                  "firstName": "julian",
+                  "lastName": "torrez",
+                  "idString": "32203022",
+                  "typeDocument": "IMMIGRATION_CARD",
+                  "dateOfBirth": "2000-10-20"
+                },
+                "izquierda": {
+                  "data": {
+                    "takeDay": "2021-10-28",
+                    "isVacuned": true,
+                    "typeComobidities": "RESPIRATORY",
+                    "isPositive": false,
+                    "firstName": "jermo",
+                    "lastName": "cuta",
+                    "idString": "23123102",
+                    "typeDocument": "IMMIGRATION_CARD",
+                    "dateOfBirth": "2001-09-20"
+                  }
+                }
+              }
+            ],
+            "count": 0
+          }
+        },
+        "derecha": {
+          "data": {
+            "id": "4",
+            "name": "hospital de cucuta",
+            "city": {
+              "name": "cucuta",
+              "id": "3"
+            },
+            "treePatient": {
+              "list": [],
+              "count": 0
+            }
+          },
+          "derecha": {
+            "data": {
+              "id": "5",
+              "name": "hospital de cuta",
+              "city": {
+                "name": "cuta",
+                "id": "4"
+              },
+              "treePatient": {
+                "list": [],
+                "count": 0
+              }
+            },
+            "derecha": {
+              "data": {
+                "id": "6",
+                "name": "clinica los especialistas",
+                "city": {
+                  "name": "sogamoso",
+                  "id": "5"
+                },
+                "treePatient": {
+                  "root": {
+                    "data": {
+                      "takeDay": "2021-09-28",
+                      "isVacuned": false,
+                      "typeComobidities": "MENTAL",
+                      "isPositive": false,
+                      "firstName": "julian",
+                      "lastName": "pacheco",
+                      "idString": "13123023",
+                      "typeDocument": "CITIZENSHIP_CARD",
+                      "dateOfBirth": "2001-10-19"
+                    }
+                  },
+                  "list": [
+                    {
+                      "data": {
+                        "takeDay": "2021-09-28",
+                        "isVacuned": false,
+                        "typeComobidities": "MENTAL",
+                        "isPositive": false,
+                        "firstName": "julian",
+                        "lastName": "pacheco",
+                        "idString": "13123023",
+                        "typeDocument": "CITIZENSHIP_CARD",
+                        "dateOfBirth": "2001-10-19"
+                      }
+                    }
+                  ],
+                  "count": 0
+                }
+              },
+              "derecha": {
+                "data": {
+                  "id": "7",
+                  "name": "hospital de medellin",
+                  "city": {
+                    "name": "medellin",
+                    "id": "6"
+                  },
+                  "treePatient": {
+                    "list": [],
+                    "count": 0
+                  }
+                },
+                "derecha": {
+                  "data": {
+                    "id": "8",
+                    "name": "hospital de manizales",
+                    "city": {
+                      "name": "manizales",
+                      "id": "7"
+                    },
+                    "treePatient": {
+                      "list": [],
+                      "count": 0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "izquierda": {
+          "data": {
+            "id": "20",
+            "name": "segundo tulio",
+            "city": {
+              "name": "manizales",
+              "id": "7"
+            },
+            "treePatient": {
+              "list": [],
+              "count": 0
+            }
+          },
+          "derecha": {
+            "data": {
+              "id": "21",
+              "name": "hospital universitario",
+              "city": {
+                "name": "santa marta",
+                "id": "8"
+              },
+              "treePatient": {
+                "list": [],
+                "count": 0
+              }
+            },
+            "derecha": {
+              "data": {
+                "id": "22",
+                "name": "hospital de pereira",
+                "city": {
+                  "name": "pereira",
+                  "id": "18"
+                },
+                "treePatient": {
+                  "root": {
+                    "data": {
+                      "takeDay": "2021-09-28",
+                      "isVacuned": false,
+                      "typeComobidities": "MUSCULAR",
+                      "isPositive": true,
+                      "firstName": "santiago",
+                      "lastName": "chaparro",
+                      "idString": "23923012",
+                      "typeDocument": "CITIZENSHIP_CARD",
+                      "dateOfBirth": "1977-08-29"
+                    },
+                    "izquierda": {
+                      "data": {
+                        "takeDay": "2021-09-20",
+                        "isVacuned": true,
+                        "typeComobidities": "NERVOUS",
+                        "isPositive": true,
+                        "firstName": "jaime",
+                        "lastName": "saenz",
+                        "idString": "12129303",
+                        "typeDocument": "CITIZENSHIP_CARD",
+                        "dateOfBirth": "2000-08-29"
+                      },
+                      "derecha": {
+                        "data": {
+                          "takeDay": "2021-10-17",
+                          "isVacuned": true,
+                          "typeComobidities": "RESPIRATORY",
+                          "isPositive": true,
+                          "firstName": "jimenez",
+                          "lastName": "torres",
+                          "idString": "232301231",
+                          "typeDocument": "CITIZENSHIP_CARD",
+                          "dateOfBirth": "2000-10-20"
+                        }
+                      }
+                    }
+                  },
+                  "list": [
+                    {
+                      "data": {
+                        "takeDay": "2021-09-20",
+                        "isVacuned": true,
+                        "typeComobidities": "NERVOUS",
+                        "isPositive": true,
+                        "firstName": "jaime",
+                        "lastName": "saenz",
+                        "idString": "12129303",
+                        "typeDocument": "CITIZENSHIP_CARD",
+                        "dateOfBirth": "2000-08-29"
+                      },
+                      "derecha": {
+                        "data": {
+                          "takeDay": "2021-10-17",
+                          "isVacuned": true,
+                          "typeComobidities": "RESPIRATORY",
+                          "isPositive": true,
+                          "firstName": "jimenez",
+                          "lastName": "torres",
+                          "idString": "232301231",
+                          "typeDocument": "CITIZENSHIP_CARD",
+                          "dateOfBirth": "2000-10-20"
+                        }
+                      }
+                    },
+                    {
+                      "data": {
+                        "takeDay": "2021-10-17",
+                        "isVacuned": true,
+                        "typeComobidities": "RESPIRATORY",
+                        "isPositive": true,
+                        "firstName": "jimenez",
+                        "lastName": "torres",
+                        "idString": "232301231",
+                        "typeDocument": "CITIZENSHIP_CARD",
+                        "dateOfBirth": "2000-10-20"
+                      }
+                    },
+                    {
+                      "data": {
+                        "takeDay": "2021-09-28",
+                        "isVacuned": false,
+                        "typeComobidities": "MUSCULAR",
+                        "isPositive": true,
+                        "firstName": "santiago",
+                        "lastName": "chaparro",
+                        "idString": "23923012",
+                        "typeDocument": "CITIZENSHIP_CARD",
+                        "dateOfBirth": "1977-08-29"
+                      },
+                      "izquierda": {
+                        "data": {
+                          "takeDay": "2021-09-20",
+                          "isVacuned": true,
+                          "typeComobidities": "NERVOUS",
+                          "isPositive": true,
+                          "firstName": "jaime",
+                          "lastName": "saenz",
+                          "idString": "12129303",
+                          "typeDocument": "CITIZENSHIP_CARD",
+                          "dateOfBirth": "2000-08-29"
+                        },
+                        "derecha": {
+                          "data": {
+                            "takeDay": "2021-10-17",
+                            "isVacuned": true,
+                            "typeComobidities": "RESPIRATORY",
+                            "isPositive": true,
+                            "firstName": "jimenez",
+                            "lastName": "torres",
+                            "idString": "232301231",
+                            "typeDocument": "CITIZENSHIP_CARD",
+                            "dateOfBirth": "2000-10-20"
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "count": 0
+                }
+              },
+              "derecha": {
+                "data": {
+                  "id": "23",
+                  "name": "clinica san jose",
+                  "city": {
+                    "name": "manizales",
+                    "id": "7"
+                  },
+                  "treePatient": {
+                    "list": [],
+                    "count": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "izquierda": {
+        "data": {
+          "id": "10",
+          "name": "hospital de santa marta",
+          "city": {
+            "name": "santa marta",
+            "id": "8"
+          },
+          "treePatient": {
+            "list": [],
+            "count": 0
+          }
+        },
+        "derecha": {
+          "data": {
+            "id": "11",
+            "name": "hospital julio mendez",
+            "city": {
+              "name": "santa marta",
+              "id": "8"
+            },
+            "treePatient": {
+              "root": {
+                "data": {
+                  "takeDay": "2020-09-28",
+                  "isVacuned": false,
+                  "typeComobidities": "DIGESTIVE",
+                  "isPositive": true,
+                  "firstName": "prueba",
+                  "lastName": "jimenez",
+                  "idString": "13193120",
+                  "typeDocument": "IMMIGRATION_CARD",
+                  "dateOfBirth": "2000-09-20"
+                }
+              },
+              "list": [
+                {
+                  "data": {
+                    "takeDay": "2020-09-28",
+                    "isVacuned": false,
+                    "typeComobidities": "DIGESTIVE",
+                    "isPositive": true,
+                    "firstName": "prueba",
+                    "lastName": "jimenez",
+                    "idString": "13193120",
+                    "typeDocument": "IMMIGRATION_CARD",
+                    "dateOfBirth": "2000-09-20"
+                  }
+                }
+              ],
+              "count": 0
+            }
+          },
+          "derecha": {
+            "data": {
+              "id": "15",
+              "name": "hospital de tumami",
+              "city": {
+                "name": "tumami",
+                "id": "10"
+              },
+              "treePatient": {
+                "list": [],
+                "count": 0
+              }
+            },
+            "derecha": {
+              "data": {
+                "id": "18",
+                "name": "hospital de cauca",
+                "city": {
+                  "name": "cauca",
+                  "id": "17"
+                },
+                "treePatient": {
+                  "list": [],
+                  "count": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "20",
+        "name": "segundo tulio",
+        "city": {
+          "name": "manizales",
+          "id": "7"
+        },
+        "treePatient": {
+          "list": [],
+          "count": 0
+        }
+      },
+      "derecha": {
+        "data": {
+          "id": "21",
+          "name": "hospital universitario",
+          "city": {
+            "name": "santa marta",
+            "id": "8"
+          },
+          "treePatient": {
+            "list": [],
+            "count": 0
+          }
+        },
+        "derecha": {
+          "data": {
+            "id": "22",
+            "name": "hospital de pereira",
+            "city": {
+              "name": "pereira",
+              "id": "18"
+            },
+            "treePatient": {
+              "root": {
+                "data": {
+                  "takeDay": "2021-09-28",
+                  "isVacuned": false,
+                  "typeComobidities": "MUSCULAR",
+                  "isPositive": true,
+                  "firstName": "santiago",
+                  "lastName": "chaparro",
+                  "idString": "23923012",
+                  "typeDocument": "CITIZENSHIP_CARD",
+                  "dateOfBirth": "1977-08-29"
+                },
+                "izquierda": {
+                  "data": {
+                    "takeDay": "2021-09-20",
+                    "isVacuned": true,
+                    "typeComobidities": "NERVOUS",
+                    "isPositive": true,
+                    "firstName": "jaime",
+                    "lastName": "saenz",
+                    "idString": "12129303",
+                    "typeDocument": "CITIZENSHIP_CARD",
+                    "dateOfBirth": "2000-08-29"
+                  },
+                  "derecha": {
+                    "data": {
+                      "takeDay": "2021-10-17",
+                      "isVacuned": true,
+                      "typeComobidities": "RESPIRATORY",
+                      "isPositive": true,
+                      "firstName": "jimenez",
+                      "lastName": "torres",
+                      "idString": "232301231",
+                      "typeDocument": "CITIZENSHIP_CARD",
+                      "dateOfBirth": "2000-10-20"
+                    }
+                  }
+                }
+              },
+              "list": [
+                {
+                  "data": {
+                    "takeDay": "2021-09-20",
+                    "isVacuned": true,
+                    "typeComobidities": "NERVOUS",
+                    "isPositive": true,
+                    "firstName": "jaime",
+                    "lastName": "saenz",
+                    "idString": "12129303",
+                    "typeDocument": "CITIZENSHIP_CARD",
+                    "dateOfBirth": "2000-08-29"
+                  },
+                  "derecha": {
+                    "data": {
+                      "takeDay": "2021-10-17",
+                      "isVacuned": true,
+                      "typeComobidities": "RESPIRATORY",
+                      "isPositive": true,
+                      "firstName": "jimenez",
+                      "lastName": "torres",
+                      "idString": "232301231",
+                      "typeDocument": "CITIZENSHIP_CARD",
+                      "dateOfBirth": "2000-10-20"
+                    }
+                  }
+                },
+                {
+                  "data": {
+                    "takeDay": "2021-10-17",
+                    "isVacuned": true,
+                    "typeComobidities": "RESPIRATORY",
+                    "isPositive": true,
+                    "firstName": "jimenez",
+                    "lastName": "torres",
+                    "idString": "232301231",
+                    "typeDocument": "CITIZENSHIP_CARD",
+                    "dateOfBirth": "2000-10-20"
+                  }
+                },
+                {
+                  "data": {
+                    "takeDay": "2021-09-28",
+                    "isVacuned": false,
+                    "typeComobidities": "MUSCULAR",
+                    "isPositive": true,
+                    "firstName": "santiago",
+                    "lastName": "chaparro",
+                    "idString": "23923012",
+                    "typeDocument": "CITIZENSHIP_CARD",
+                    "dateOfBirth": "1977-08-29"
+                  },
+                  "izquierda": {
+                    "data": {
+                      "takeDay": "2021-09-20",
+                      "isVacuned": true,
+                      "typeComobidities": "NERVOUS",
+                      "isPositive": true,
+                      "firstName": "jaime",
+                      "lastName": "saenz",
+                      "idString": "12129303",
+                      "typeDocument": "CITIZENSHIP_CARD",
+                      "dateOfBirth": "2000-08-29"
+                    },
+                    "derecha": {
+                      "data": {
+                        "takeDay": "2021-10-17",
+                        "isVacuned": true,
+                        "typeComobidities": "RESPIRATORY",
+                        "isPositive": true,
+                        "firstName": "jimenez",
+                        "lastName": "torres",
+                        "idString": "232301231",
+                        "typeDocument": "CITIZENSHIP_CARD",
+                        "dateOfBirth": "2000-10-20"
+                      }
+                    }
+                  }
+                }
+              ],
+              "count": 0
+            }
+          },
+          "derecha": {
+            "data": {
+              "id": "23",
+              "name": "clinica san jose",
+              "city": {
+                "name": "manizales",
+                "id": "7"
+              },
+              "treePatient": {
+                "list": [],
+                "count": 0
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "21",
+        "name": "hospital universitario",
+        "city": {
+          "name": "santa marta",
+          "id": "8"
+        },
+        "treePatient": {
+          "list": [],
+          "count": 0
+        }
+      },
+      "derecha": {
+        "data": {
+          "id": "22",
+          "name": "hospital de pereira",
+          "city": {
+            "name": "pereira",
+            "id": "18"
+          },
+          "treePatient": {
+            "root": {
+              "data": {
+                "takeDay": "2021-09-28",
+                "isVacuned": false,
+                "typeComobidities": "MUSCULAR",
+                "isPositive": true,
+                "firstName": "santiago",
+                "lastName": "chaparro",
+                "idString": "23923012",
+                "typeDocument": "CITIZENSHIP_CARD",
+                "dateOfBirth": "1977-08-29"
+              },
+              "izquierda": {
+                "data": {
+                  "takeDay": "2021-09-20",
+                  "isVacuned": true,
+                  "typeComobidities": "NERVOUS",
+                  "isPositive": true,
+                  "firstName": "jaime",
+                  "lastName": "saenz",
+                  "idString": "12129303",
+                  "typeDocument": "CITIZENSHIP_CARD",
+                  "dateOfBirth": "2000-08-29"
+                },
+                "derecha": {
+                  "data": {
+                    "takeDay": "2021-10-17",
+                    "isVacuned": true,
+                    "typeComobidities": "RESPIRATORY",
+                    "isPositive": true,
+                    "firstName": "jimenez",
+                    "lastName": "torres",
+                    "idString": "232301231",
+                    "typeDocument": "CITIZENSHIP_CARD",
+                    "dateOfBirth": "2000-10-20"
+                  }
+                }
+              }
+            },
+            "list": [
+              {
+                "data": {
+                  "takeDay": "2021-09-20",
+                  "isVacuned": true,
+                  "typeComobidities": "NERVOUS",
+                  "isPositive": true,
+                  "firstName": "jaime",
+                  "lastName": "saenz",
+                  "idString": "12129303",
+                  "typeDocument": "CITIZENSHIP_CARD",
+                  "dateOfBirth": "2000-08-29"
+                },
+                "derecha": {
+                  "data": {
+                    "takeDay": "2021-10-17",
+                    "isVacuned": true,
+                    "typeComobidities": "RESPIRATORY",
+                    "isPositive": true,
+                    "firstName": "jimenez",
+                    "lastName": "torres",
+                    "idString": "232301231",
+                    "typeDocument": "CITIZENSHIP_CARD",
+                    "dateOfBirth": "2000-10-20"
+                  }
+                }
+              },
+              {
+                "data": {
+                  "takeDay": "2021-10-17",
+                  "isVacuned": true,
+                  "typeComobidities": "RESPIRATORY",
+                  "isPositive": true,
+                  "firstName": "jimenez",
+                  "lastName": "torres",
+                  "idString": "232301231",
+                  "typeDocument": "CITIZENSHIP_CARD",
+                  "dateOfBirth": "2000-10-20"
+                }
+              },
+              {
+                "data": {
+                  "takeDay": "2021-09-28",
+                  "isVacuned": false,
+                  "typeComobidities": "MUSCULAR",
+                  "isPositive": true,
+                  "firstName": "santiago",
+                  "lastName": "chaparro",
+                  "idString": "23923012",
+                  "typeDocument": "CITIZENSHIP_CARD",
+                  "dateOfBirth": "1977-08-29"
+                },
+                "izquierda": {
+                  "data": {
+                    "takeDay": "2021-09-20",
+                    "isVacuned": true,
+                    "typeComobidities": "NERVOUS",
+                    "isPositive": true,
+                    "firstName": "jaime",
+                    "lastName": "saenz",
+                    "idString": "12129303",
+                    "typeDocument": "CITIZENSHIP_CARD",
+                    "dateOfBirth": "2000-08-29"
+                  },
+                  "derecha": {
+                    "data": {
+                      "takeDay": "2021-10-17",
+                      "isVacuned": true,
+                      "typeComobidities": "RESPIRATORY",
+                      "isPositive": true,
+                      "firstName": "jimenez",
+                      "lastName": "torres",
+                      "idString": "232301231",
+                      "typeDocument": "CITIZENSHIP_CARD",
+                      "dateOfBirth": "2000-10-20"
+                    }
+                  }
+                }
+              }
+            ],
+            "count": 0
+          }
+        },
+        "derecha": {
+          "data": {
+            "id": "23",
+            "name": "clinica san jose",
+            "city": {
+              "name": "manizales",
+              "id": "7"
+            },
+            "treePatient": {
+              "list": [],
+              "count": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "22",
+        "name": "hospital de pereira",
+        "city": {
+          "name": "pereira",
+          "id": "18"
+        },
+        "treePatient": {
+          "root": {
+            "data": {
+              "takeDay": "2021-09-28",
+              "isVacuned": false,
+              "typeComobidities": "MUSCULAR",
+              "isPositive": true,
+              "firstName": "santiago",
+              "lastName": "chaparro",
+              "idString": "23923012",
+              "typeDocument": "CITIZENSHIP_CARD",
+              "dateOfBirth": "1977-08-29"
+            },
+            "izquierda": {
+              "data": {
+                "takeDay": "2021-09-20",
+                "isVacuned": true,
+                "typeComobidities": "NERVOUS",
+                "isPositive": true,
+                "firstName": "jaime",
+                "lastName": "saenz",
+                "idString": "12129303",
+                "typeDocument": "CITIZENSHIP_CARD",
+                "dateOfBirth": "2000-08-29"
+              },
+              "derecha": {
+                "data": {
+                  "takeDay": "2021-10-17",
+                  "isVacuned": true,
+                  "typeComobidities": "RESPIRATORY",
+                  "isPositive": true,
+                  "firstName": "jimenez",
+                  "lastName": "torres",
+                  "idString": "232301231",
+                  "typeDocument": "CITIZENSHIP_CARD",
+                  "dateOfBirth": "2000-10-20"
+                }
+              }
+            }
+          },
+          "list": [
+            {
+              "data": {
+                "takeDay": "2021-09-20",
+                "isVacuned": true,
+                "typeComobidities": "NERVOUS",
+                "isPositive": true,
+                "firstName": "jaime",
+                "lastName": "saenz",
+                "idString": "12129303",
+                "typeDocument": "CITIZENSHIP_CARD",
+                "dateOfBirth": "2000-08-29"
+              },
+              "derecha": {
+                "data": {
+                  "takeDay": "2021-10-17",
+                  "isVacuned": true,
+                  "typeComobidities": "RESPIRATORY",
+                  "isPositive": true,
+                  "firstName": "jimenez",
+                  "lastName": "torres",
+                  "idString": "232301231",
+                  "typeDocument": "CITIZENSHIP_CARD",
+                  "dateOfBirth": "2000-10-20"
+                }
+              }
+            },
+            {
+              "data": {
+                "takeDay": "2021-10-17",
+                "isVacuned": true,
+                "typeComobidities": "RESPIRATORY",
+                "isPositive": true,
+                "firstName": "jimenez",
+                "lastName": "torres",
+                "idString": "232301231",
+                "typeDocument": "CITIZENSHIP_CARD",
+                "dateOfBirth": "2000-10-20"
+              }
+            },
+            {
+              "data": {
+                "takeDay": "2021-09-28",
+                "isVacuned": false,
+                "typeComobidities": "MUSCULAR",
+                "isPositive": true,
+                "firstName": "santiago",
+                "lastName": "chaparro",
+                "idString": "23923012",
+                "typeDocument": "CITIZENSHIP_CARD",
+                "dateOfBirth": "1977-08-29"
+              },
+              "izquierda": {
+                "data": {
+                  "takeDay": "2021-09-20",
+                  "isVacuned": true,
+                  "typeComobidities": "NERVOUS",
+                  "isPositive": true,
+                  "firstName": "jaime",
+                  "lastName": "saenz",
+                  "idString": "12129303",
+                  "typeDocument": "CITIZENSHIP_CARD",
+                  "dateOfBirth": "2000-08-29"
+                },
+                "derecha": {
+                  "data": {
+                    "takeDay": "2021-10-17",
+                    "isVacuned": true,
+                    "typeComobidities": "RESPIRATORY",
+                    "isPositive": true,
+                    "firstName": "jimenez",
+                    "lastName": "torres",
+                    "idString": "232301231",
+                    "typeDocument": "CITIZENSHIP_CARD",
+                    "dateOfBirth": "2000-10-20"
+                  }
+                }
+              }
+            }
+          ],
+          "count": 0
+        }
+      },
+      "derecha": {
+        "data": {
+          "id": "23",
+          "name": "clinica san jose",
+          "city": {
+            "name": "manizales",
+            "id": "7"
+          },
+          "treePatient": {
+            "list": [],
+            "count": 0
+          }
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "23",
+        "name": "clinica san jose",
+        "city": {
+          "name": "manizales",
+          "id": "7"
+        },
+        "treePatient": {
+          "list": [],
+          "count": 0
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "3",
+        "name": "clinica tunja",
+        "city": {
+          "name": "tunja",
+          "id": "1"
+        },
+        "treePatient": {
+          "root": {
+            "data": {
+              "takeDay": "2021-08-29",
+              "isVacuned": true,
+              "typeComobidities": "CARDIOVASCULAR",
+              "isPositive": true,
+              "firstName": "julian",
+              "lastName": "torrez",
+              "idString": "32203022",
+              "typeDocument": "IMMIGRATION_CARD",
+              "dateOfBirth": "2000-10-20"
+            },
+            "izquierda": {
+              "data": {
+                "takeDay": "2021-10-28",
+                "isVacuned": true,
+                "typeComobidities": "RESPIRATORY",
+                "isPositive": false,
+                "firstName": "jermo",
+                "lastName": "cuta",
+                "idString": "23123102",
+                "typeDocument": "IMMIGRATION_CARD",
+                "dateOfBirth": "2001-09-20"
+              }
+            }
+          },
+          "list": [
+            {
+              "data": {
+                "takeDay": "2021-10-28",
+                "isVacuned": true,
+                "typeComobidities": "RESPIRATORY",
+                "isPositive": false,
+                "firstName": "jermo",
+                "lastName": "cuta",
+                "idString": "23123102",
+                "typeDocument": "IMMIGRATION_CARD",
+                "dateOfBirth": "2001-09-20"
+              }
+            },
+            {
+              "data": {
+                "takeDay": "2021-08-29",
+                "isVacuned": true,
+                "typeComobidities": "CARDIOVASCULAR",
+                "isPositive": true,
+                "firstName": "julian",
+                "lastName": "torrez",
+                "idString": "32203022",
+                "typeDocument": "IMMIGRATION_CARD",
+                "dateOfBirth": "2000-10-20"
+              },
+              "izquierda": {
+                "data": {
+                  "takeDay": "2021-10-28",
+                  "isVacuned": true,
+                  "typeComobidities": "RESPIRATORY",
+                  "isPositive": false,
+                  "firstName": "jermo",
+                  "lastName": "cuta",
+                  "idString": "23123102",
+                  "typeDocument": "IMMIGRATION_CARD",
+                  "dateOfBirth": "2001-09-20"
+                }
+              }
+            }
+          ],
+          "count": 0
+        }
+      },
+      "derecha": {
+        "data": {
+          "id": "4",
+          "name": "hospital de cucuta",
+          "city": {
+            "name": "cucuta",
+            "id": "3"
+          },
+          "treePatient": {
+            "list": [],
+            "count": 0
+          }
+        },
+        "derecha": {
+          "data": {
+            "id": "5",
+            "name": "hospital de cuta",
+            "city": {
+              "name": "cuta",
+              "id": "4"
+            },
+            "treePatient": {
+              "list": [],
+              "count": 0
+            }
+          },
+          "derecha": {
+            "data": {
+              "id": "6",
+              "name": "clinica los especialistas",
+              "city": {
+                "name": "sogamoso",
+                "id": "5"
+              },
+              "treePatient": {
+                "root": {
+                  "data": {
+                    "takeDay": "2021-09-28",
+                    "isVacuned": false,
+                    "typeComobidities": "MENTAL",
+                    "isPositive": false,
+                    "firstName": "julian",
+                    "lastName": "pacheco",
+                    "idString": "13123023",
+                    "typeDocument": "CITIZENSHIP_CARD",
+                    "dateOfBirth": "2001-10-19"
+                  }
+                },
+                "list": [
+                  {
+                    "data": {
+                      "takeDay": "2021-09-28",
+                      "isVacuned": false,
+                      "typeComobidities": "MENTAL",
+                      "isPositive": false,
+                      "firstName": "julian",
+                      "lastName": "pacheco",
+                      "idString": "13123023",
+                      "typeDocument": "CITIZENSHIP_CARD",
+                      "dateOfBirth": "2001-10-19"
+                    }
+                  }
+                ],
+                "count": 0
+              }
+            },
+            "derecha": {
+              "data": {
+                "id": "7",
+                "name": "hospital de medellin",
+                "city": {
+                  "name": "medellin",
+                  "id": "6"
+                },
+                "treePatient": {
+                  "list": [],
+                  "count": 0
+                }
+              },
+              "derecha": {
+                "data": {
+                  "id": "8",
+                  "name": "hospital de manizales",
+                  "city": {
+                    "name": "manizales",
+                    "id": "7"
+                  },
+                  "treePatient": {
+                    "list": [],
+                    "count": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "izquierda": {
+        "data": {
+          "id": "20",
+          "name": "segundo tulio",
+          "city": {
+            "name": "manizales",
+            "id": "7"
+          },
+          "treePatient": {
+            "list": [],
+            "count": 0
+          }
+        },
+        "derecha": {
+          "data": {
+            "id": "21",
+            "name": "hospital universitario",
+            "city": {
+              "name": "santa marta",
+              "id": "8"
+            },
+            "treePatient": {
+              "list": [],
+              "count": 0
+            }
+          },
+          "derecha": {
+            "data": {
+              "id": "22",
+              "name": "hospital de pereira",
+              "city": {
+                "name": "pereira",
+                "id": "18"
+              },
+              "treePatient": {
+                "root": {
+                  "data": {
+                    "takeDay": "2021-09-28",
+                    "isVacuned": false,
+                    "typeComobidities": "MUSCULAR",
+                    "isPositive": true,
+                    "firstName": "santiago",
+                    "lastName": "chaparro",
+                    "idString": "23923012",
+                    "typeDocument": "CITIZENSHIP_CARD",
+                    "dateOfBirth": "1977-08-29"
+                  },
+                  "izquierda": {
+                    "data": {
+                      "takeDay": "2021-09-20",
+                      "isVacuned": true,
+                      "typeComobidities": "NERVOUS",
+                      "isPositive": true,
+                      "firstName": "jaime",
+                      "lastName": "saenz",
+                      "idString": "12129303",
+                      "typeDocument": "CITIZENSHIP_CARD",
+                      "dateOfBirth": "2000-08-29"
+                    },
+                    "derecha": {
+                      "data": {
+                        "takeDay": "2021-10-17",
+                        "isVacuned": true,
+                        "typeComobidities": "RESPIRATORY",
+                        "isPositive": true,
+                        "firstName": "jimenez",
+                        "lastName": "torres",
+                        "idString": "232301231",
+                        "typeDocument": "CITIZENSHIP_CARD",
+                        "dateOfBirth": "2000-10-20"
+                      }
+                    }
+                  }
+                },
+                "list": [
+                  {
+                    "data": {
+                      "takeDay": "2021-09-20",
+                      "isVacuned": true,
+                      "typeComobidities": "NERVOUS",
+                      "isPositive": true,
+                      "firstName": "jaime",
+                      "lastName": "saenz",
+                      "idString": "12129303",
+                      "typeDocument": "CITIZENSHIP_CARD",
+                      "dateOfBirth": "2000-08-29"
+                    },
+                    "derecha": {
+                      "data": {
+                        "takeDay": "2021-10-17",
+                        "isVacuned": true,
+                        "typeComobidities": "RESPIRATORY",
+                        "isPositive": true,
+                        "firstName": "jimenez",
+                        "lastName": "torres",
+                        "idString": "232301231",
+                        "typeDocument": "CITIZENSHIP_CARD",
+                        "dateOfBirth": "2000-10-20"
+                      }
+                    }
+                  },
+                  {
+                    "data": {
+                      "takeDay": "2021-10-17",
+                      "isVacuned": true,
+                      "typeComobidities": "RESPIRATORY",
+                      "isPositive": true,
+                      "firstName": "jimenez",
+                      "lastName": "torres",
+                      "idString": "232301231",
+                      "typeDocument": "CITIZENSHIP_CARD",
+                      "dateOfBirth": "2000-10-20"
+                    }
+                  },
+                  {
+                    "data": {
+                      "takeDay": "2021-09-28",
+                      "isVacuned": false,
+                      "typeComobidities": "MUSCULAR",
+                      "isPositive": true,
+                      "firstName": "santiago",
+                      "lastName": "chaparro",
+                      "idString": "23923012",
+                      "typeDocument": "CITIZENSHIP_CARD",
+                      "dateOfBirth": "1977-08-29"
+                    },
+                    "izquierda": {
+                      "data": {
+                        "takeDay": "2021-09-20",
+                        "isVacuned": true,
+                        "typeComobidities": "NERVOUS",
+                        "isPositive": true,
+                        "firstName": "jaime",
+                        "lastName": "saenz",
+                        "idString": "12129303",
+                        "typeDocument": "CITIZENSHIP_CARD",
+                        "dateOfBirth": "2000-08-29"
+                      },
+                      "derecha": {
+                        "data": {
+                          "takeDay": "2021-10-17",
+                          "isVacuned": true,
+                          "typeComobidities": "RESPIRATORY",
+                          "isPositive": true,
+                          "firstName": "jimenez",
+                          "lastName": "torres",
+                          "idString": "232301231",
+                          "typeDocument": "CITIZENSHIP_CARD",
+                          "dateOfBirth": "2000-10-20"
+                        }
+                      }
+                    }
+                  }
+                ],
+                "count": 0
+              }
+            },
+            "derecha": {
+              "data": {
+                "id": "23",
+                "name": "clinica san jose",
+                "city": {
+                  "name": "manizales",
+                  "id": "7"
+                },
+                "treePatient": {
+                  "list": [],
+                  "count": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "4",
+        "name": "hospital de cucuta",
+        "city": {
+          "name": "cucuta",
+          "id": "3"
+        },
+        "treePatient": {
+          "list": [],
+          "count": 0
+        }
+      },
+      "derecha": {
+        "data": {
+          "id": "5",
+          "name": "hospital de cuta",
+          "city": {
+            "name": "cuta",
+            "id": "4"
+          },
+          "treePatient": {
+            "list": [],
+            "count": 0
+          }
+        },
+        "derecha": {
+          "data": {
+            "id": "6",
+            "name": "clinica los especialistas",
+            "city": {
+              "name": "sogamoso",
+              "id": "5"
+            },
+            "treePatient": {
+              "root": {
+                "data": {
+                  "takeDay": "2021-09-28",
+                  "isVacuned": false,
+                  "typeComobidities": "MENTAL",
+                  "isPositive": false,
+                  "firstName": "julian",
+                  "lastName": "pacheco",
+                  "idString": "13123023",
+                  "typeDocument": "CITIZENSHIP_CARD",
+                  "dateOfBirth": "2001-10-19"
+                }
+              },
+              "list": [
+                {
+                  "data": {
+                    "takeDay": "2021-09-28",
+                    "isVacuned": false,
+                    "typeComobidities": "MENTAL",
+                    "isPositive": false,
+                    "firstName": "julian",
+                    "lastName": "pacheco",
+                    "idString": "13123023",
+                    "typeDocument": "CITIZENSHIP_CARD",
+                    "dateOfBirth": "2001-10-19"
+                  }
+                }
+              ],
+              "count": 0
+            }
+          },
+          "derecha": {
+            "data": {
+              "id": "7",
+              "name": "hospital de medellin",
+              "city": {
+                "name": "medellin",
+                "id": "6"
+              },
+              "treePatient": {
+                "list": [],
+                "count": 0
+              }
+            },
+            "derecha": {
+              "data": {
+                "id": "8",
+                "name": "hospital de manizales",
+                "city": {
+                  "name": "manizales",
+                  "id": "7"
+                },
+                "treePatient": {
+                  "list": [],
+                  "count": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "5",
+        "name": "hospital de cuta",
+        "city": {
+          "name": "cuta",
+          "id": "4"
+        },
+        "treePatient": {
+          "list": [],
+          "count": 0
+        }
+      },
+      "derecha": {
+        "data": {
+          "id": "6",
+          "name": "clinica los especialistas",
+          "city": {
+            "name": "sogamoso",
+            "id": "5"
+          },
+          "treePatient": {
+            "root": {
+              "data": {
+                "takeDay": "2021-09-28",
+                "isVacuned": false,
+                "typeComobidities": "MENTAL",
+                "isPositive": false,
+                "firstName": "julian",
+                "lastName": "pacheco",
+                "idString": "13123023",
+                "typeDocument": "CITIZENSHIP_CARD",
+                "dateOfBirth": "2001-10-19"
+              }
+            },
+            "list": [
+              {
+                "data": {
+                  "takeDay": "2021-09-28",
+                  "isVacuned": false,
+                  "typeComobidities": "MENTAL",
+                  "isPositive": false,
+                  "firstName": "julian",
+                  "lastName": "pacheco",
+                  "idString": "13123023",
+                  "typeDocument": "CITIZENSHIP_CARD",
+                  "dateOfBirth": "2001-10-19"
+                }
+              }
+            ],
+            "count": 0
+          }
+        },
+        "derecha": {
+          "data": {
+            "id": "7",
+            "name": "hospital de medellin",
+            "city": {
+              "name": "medellin",
+              "id": "6"
+            },
+            "treePatient": {
+              "list": [],
+              "count": 0
+            }
+          },
+          "derecha": {
+            "data": {
+              "id": "8",
+              "name": "hospital de manizales",
+              "city": {
+                "name": "manizales",
+                "id": "7"
+              },
+              "treePatient": {
+                "list": [],
+                "count": 0
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "6",
+        "name": "clinica los especialistas",
+        "city": {
+          "name": "sogamoso",
+          "id": "5"
+        },
+        "treePatient": {
+          "root": {
+            "data": {
+              "takeDay": "2021-09-28",
+              "isVacuned": false,
+              "typeComobidities": "MENTAL",
+              "isPositive": false,
+              "firstName": "julian",
+              "lastName": "pacheco",
+              "idString": "13123023",
+              "typeDocument": "CITIZENSHIP_CARD",
+              "dateOfBirth": "2001-10-19"
+            }
+          },
+          "list": [
+            {
+              "data": {
+                "takeDay": "2021-09-28",
+                "isVacuned": false,
+                "typeComobidities": "MENTAL",
+                "isPositive": false,
+                "firstName": "julian",
+                "lastName": "pacheco",
+                "idString": "13123023",
+                "typeDocument": "CITIZENSHIP_CARD",
+                "dateOfBirth": "2001-10-19"
+              }
+            }
+          ],
+          "count": 0
+        }
+      },
+      "derecha": {
+        "data": {
+          "id": "7",
+          "name": "hospital de medellin",
+          "city": {
+            "name": "medellin",
+            "id": "6"
+          },
+          "treePatient": {
+            "list": [],
+            "count": 0
+          }
+        },
+        "derecha": {
+          "data": {
+            "id": "8",
+            "name": "hospital de manizales",
+            "city": {
+              "name": "manizales",
+              "id": "7"
+            },
+            "treePatient": {
+              "list": [],
+              "count": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "7",
+        "name": "hospital de medellin",
+        "city": {
+          "name": "medellin",
+          "id": "6"
+        },
+        "treePatient": {
+          "list": [],
+          "count": 0
+        }
+      },
+      "derecha": {
+        "data": {
+          "id": "8",
+          "name": "hospital de manizales",
+          "city": {
+            "name": "manizales",
+            "id": "7"
+          },
+          "treePatient": {
+            "list": [],
+            "count": 0
+          }
+        }
+      }
+    },
+    {
+      "data": {
+        "id": "8",
+        "name": "hospital de manizales",
+        "city": {
+          "name": "manizales",
+          "id": "7"
+        },
+        "treePatient": {
+          "list": [],
+          "count": 0
+        }
+      }
+    }
+  ],
+  "count": 0
+}

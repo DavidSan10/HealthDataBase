@@ -190,11 +190,12 @@ public class HealthSystemThread extends Thread implements IObserver{
 			healthPost = input.readUTF();
 			HealthPost aux = new Gson().fromJson(healthPost, HealthPost.class);
 			String idCity = manager.searchCityForName(aux.getIdCity());
-			if(manager.createHealthPost(idCity,aux.getId(), aux.getName())) {
+			if(manager.createHealthPost(idCity,String.valueOf(manager.getHealthPostTree().getSize() + 1), aux.getName())) {
 				output.writeBoolean(true);
 				Files.writeFilesHealtPost(manager.getHealthPostTree());
 				option = "updateHealthPost";
 				subject.notifyObservers();
+				//getHealthPost(); //aquiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
 				option = "";
 			}else {
 				output.writeBoolean(false);
@@ -209,6 +210,7 @@ public class HealthSystemThread extends Thread implements IObserver{
 	public void getNameHealthPostForCity() {
 		try {
 			String city = input.readUTF();
+			System.out.println("cuidad" + city);
 			ArrayList<String> list = manager.getNameHealthPostForCity(city);
 			output.writeUTF(new Gson().toJson(list));
 		} catch (IOException e) {
@@ -217,23 +219,24 @@ public class HealthSystemThread extends Thread implements IObserver{
 		}
 	}
 	
-	
-	public ArrayList<String> getNamesHealthPost() {
-		ArrayList<HealthPost> listCities = manager.getHealthPostList();
-		ArrayList<String> listNamesCities = new ArrayList<String>();
-		for (int i = 0; i < listCities.size(); i++) {
-			listNamesCities.add(listCities.get(i).getName());
-			
-		}
-		return listNamesCities;
-	}
+//	
+//	public ArrayList<String> getNamesHealthPost() {
+//		ArrayList<HealthPost> listCities = manager.getHealthPostList();
+//		ArrayList<String> listNamesCities = new ArrayList<String>();
+//		for (int i = 0; i < listCities.size(); i++) {
+//			listNamesCities.add(listCities.get(i).getName());
+//			
+//		}
+//		return listNamesCities;
+//	}
 
 	private void createCity() {
 		String city;
 		try {
 			city = input.readUTF();
 			City aux = new Gson().fromJson(city, City.class);
-			if(manager.addCity(aux.getId(), aux.getName())) {
+			System.out.println("$$$$$$$$$$$$$$$$$$$$$$$$$$"+aux);
+			if(manager.addCity(String.valueOf(manager.getTreeCity().getSize() + 1), aux.getName())) {
 				Files.writeFilesCity(manager.getTreeCity());
 				output.writeBoolean(true);
 				option = "updateCity";
@@ -266,11 +269,15 @@ public class HealthSystemThread extends Thread implements IObserver{
 		for (int i = 0; i < listCities.size(); i++) {
 			listNamesCities.add(listCities.get(i).getName());
 		}
+		System.out.println("Obtener nombre de cuidades" + listNamesCities);
 		return listNamesCities;
 	}
 
 	public ArrayList<String> getHealthPost() {
 		ArrayList<String> listCities = getNameCities();
+		if(listCities.isEmpty()) {
+			return new ArrayList<>();
+		}
 		return manager.getNameHealthPostForCity(listCities.get(0));
 	}
 
@@ -360,7 +367,9 @@ public class HealthSystemThread extends Thread implements IObserver{
 				break;
 			case Constants.MESSAGE_UPDATE_HEALTHPOST:
 				output.writeUTF(Constants.MESSAGE_UPDATE_HEALTHPOST);
-				output.writeUTF(new Gson().toJson(getNamesHealthPost()));
+				//output.writeUTF(new Gson().toJson(getNamesHealthPost()));
+				output.writeUTF(new Gson().toJson(getHealthPost()));
+				
 				break;
 			case Constants.MESSAGE_UPDATE_PATIENT:
 				output.writeUTF(Constants.MESSAGE_UPDATE_PATIENT);

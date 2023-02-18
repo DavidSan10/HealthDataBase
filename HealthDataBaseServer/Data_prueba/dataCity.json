@@ -1,0 +1,347 @@
+{
+  "root": {
+    "data": {
+      "name": "tunja",
+      "id": "1"
+    },
+    "izquierda": {
+      "data": {
+        "name": "paipa",
+        "id": "2"
+      },
+      "derecha": {
+        "data": {
+          "name": "sogamoso",
+          "id": "5"
+        },
+        "derecha": {
+          "data": {
+            "name": "tumami",
+            "id": "10"
+          }
+        },
+        "izquierda": {
+          "data": {
+            "name": "santa marta",
+            "id": "8"
+          },
+          "derecha": {
+            "data": {
+              "name": "Soacha",
+              "id": "30"
+            }
+          },
+          "izquierda": {
+            "data": {
+              "name": "pereira",
+              "id": "18"
+            }
+          }
+        }
+      },
+      "izquierda": {
+        "data": {
+          "name": "cucuta",
+          "id": "3"
+        },
+        "derecha": {
+          "data": {
+            "name": "cuta",
+            "id": "4"
+          },
+          "derecha": {
+            "data": {
+              "name": "medellin",
+              "id": "6"
+            },
+            "izquierda": {
+              "data": {
+                "name": "manizales",
+                "id": "7"
+              }
+            }
+          }
+        },
+        "izquierda": {
+          "data": {
+            "name": "cauca",
+            "id": "17"
+          }
+        }
+      }
+    }
+  },
+  "list": [
+    {
+      "data": {
+        "name": "cauca",
+        "id": "17"
+      }
+    },
+    {
+      "data": {
+        "name": "cucuta",
+        "id": "3"
+      },
+      "derecha": {
+        "data": {
+          "name": "cuta",
+          "id": "4"
+        },
+        "derecha": {
+          "data": {
+            "name": "medellin",
+            "id": "6"
+          },
+          "izquierda": {
+            "data": {
+              "name": "manizales",
+              "id": "7"
+            }
+          }
+        }
+      },
+      "izquierda": {
+        "data": {
+          "name": "cauca",
+          "id": "17"
+        }
+      }
+    },
+    {
+      "data": {
+        "name": "cuta",
+        "id": "4"
+      },
+      "derecha": {
+        "data": {
+          "name": "medellin",
+          "id": "6"
+        },
+        "izquierda": {
+          "data": {
+            "name": "manizales",
+            "id": "7"
+          }
+        }
+      }
+    },
+    {
+      "data": {
+        "name": "manizales",
+        "id": "7"
+      }
+    },
+    {
+      "data": {
+        "name": "medellin",
+        "id": "6"
+      },
+      "izquierda": {
+        "data": {
+          "name": "manizales",
+          "id": "7"
+        }
+      }
+    },
+    {
+      "data": {
+        "name": "paipa",
+        "id": "2"
+      },
+      "derecha": {
+        "data": {
+          "name": "sogamoso",
+          "id": "5"
+        },
+        "derecha": {
+          "data": {
+            "name": "tumami",
+            "id": "10"
+          }
+        },
+        "izquierda": {
+          "data": {
+            "name": "santa marta",
+            "id": "8"
+          },
+          "derecha": {
+            "data": {
+              "name": "Soacha",
+              "id": "30"
+            }
+          },
+          "izquierda": {
+            "data": {
+              "name": "pereira",
+              "id": "18"
+            }
+          }
+        }
+      },
+      "izquierda": {
+        "data": {
+          "name": "cucuta",
+          "id": "3"
+        },
+        "derecha": {
+          "data": {
+            "name": "cuta",
+            "id": "4"
+          },
+          "derecha": {
+            "data": {
+              "name": "medellin",
+              "id": "6"
+            },
+            "izquierda": {
+              "data": {
+                "name": "manizales",
+                "id": "7"
+              }
+            }
+          }
+        },
+        "izquierda": {
+          "data": {
+            "name": "cauca",
+            "id": "17"
+          }
+        }
+      }
+    },
+    {
+      "data": {
+        "name": "pereira",
+        "id": "18"
+      }
+    },
+    {
+      "data": {
+        "name": "santa marta",
+        "id": "8"
+      },
+      "derecha": {
+        "data": {
+          "name": "Soacha",
+          "id": "30"
+        }
+      },
+      "izquierda": {
+        "data": {
+          "name": "pereira",
+          "id": "18"
+        }
+      }
+    },
+    {
+      "data": {
+        "name": "sogamoso",
+        "id": "5"
+      },
+      "derecha": {
+        "data": {
+          "name": "tumami",
+          "id": "10"
+        }
+      },
+      "izquierda": {
+        "data": {
+          "name": "santa marta",
+          "id": "8"
+        },
+        "derecha": {
+          "data": {
+            "name": "Soacha",
+            "id": "30"
+          }
+        },
+        "izquierda": {
+          "data": {
+            "name": "pereira",
+            "id": "18"
+          }
+        }
+      }
+    },
+    {
+      "data": {
+        "name": "tumami",
+        "id": "10"
+      }
+    },
+    {
+      "data": {
+        "name": "tunja",
+        "id": "1"
+      },
+      "izquierda": {
+        "data": {
+          "name": "paipa",
+          "id": "2"
+        },
+        "derecha": {
+          "data": {
+            "name": "sogamoso",
+            "id": "5"
+          },
+          "derecha": {
+            "data": {
+              "name": "tumami",
+              "id": "10"
+            }
+          },
+          "izquierda": {
+            "data": {
+              "name": "santa marta",
+              "id": "8"
+            },
+            "derecha": {
+              "data": {
+                "name": "Soacha",
+                "id": "30"
+              }
+            },
+            "izquierda": {
+              "data": {
+                "name": "pereira",
+                "id": "18"
+              }
+            }
+          }
+        },
+        "izquierda": {
+          "data": {
+            "name": "cucuta",
+            "id": "3"
+          },
+          "derecha": {
+            "data": {
+              "name": "cuta",
+              "id": "4"
+            },
+            "derecha": {
+              "data": {
+                "name": "medellin",
+                "id": "6"
+              },
+              "izquierda": {
+                "data": {
+                  "name": "manizales",
+                  "id": "7"
+                }
+              }
+            }
+          },
+          "izquierda": {
+            "data": {
+              "name": "cauca",
+              "id": "17"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "count": 0
+}

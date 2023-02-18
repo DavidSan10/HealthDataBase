@@ -17,10 +17,11 @@ public class HealthSystem {
 
 	public HealthSystem(BinaryTree<Administrator> administratorTree, BinaryTree<HealthPost> healthPostTree,
 			BinaryTree<City> cityTree) {
+		this.administratorTree = administratorTree;
 		this.healthPostTree = healthPostTree;
 		this.cityTree = cityTree;
-		this.administratorTree = administratorTree;
 
+		System.out.println("entrAAAAAAAAAAA");
 	}
 
 	/* Correcto */
@@ -35,7 +36,7 @@ public class HealthSystem {
 	/* Correcto */
 
 	public boolean isNameRepeat(String name) throws isRepeatNameCityException {
-		City aux = new City("", name);
+		City aux = new City(name);
 		City city = cityTree.isExistData(aux, new ComparatorCityName());
 		if (city != null) {
 			throw new isRepeatNameCityException();
@@ -61,7 +62,7 @@ public class HealthSystem {
 	public synchronized boolean addCity(String id, String name) throws isRepeatNameCityException {
 		if (!isRepeatCity(id) && Tool.validIdCityOrHospital(id)) {
 			if (!isNameRepeat(name)) {
-				cityTree.insert(new City(id, name), new ComparatorCityName());
+				cityTree.insert(new City(id, name.toUpperCase()), new ComparatorCityName());
 				return true;
 			}
 
@@ -207,7 +208,6 @@ public class HealthSystem {
 			if (listHealthPostAux.get(i).getCity().getName().equalsIgnoreCase(nameCity)) {
 				listHealthPost.add(listHealthPostAux.get(i).getName());
 			}
-
 		}
 
 		return listHealthPost;
@@ -215,7 +215,8 @@ public class HealthSystem {
 	}
 
 	public ArrayList<City> getListCity() {
-		//ArrayList<City> list = cityTree.getListData();
+//		ArrayList<City> list = new ArrayList<City>();
+//		System.out.println("REFERENCIA"+ cityTree);
 		return  cityTree.getListData();
 	}
 

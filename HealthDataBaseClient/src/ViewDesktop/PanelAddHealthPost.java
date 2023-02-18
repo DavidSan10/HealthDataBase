@@ -21,8 +21,8 @@ public class PanelAddHealthPost extends JPanel{
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	private JLabel lblId;
-	private JTextField txtId;
+//	private JLabel lblId;
+//	private JTextField txtId;
 	private JLabel lblName;
 	private JTextField txtName;
 	private JLabel lblJComboBox;
@@ -32,16 +32,16 @@ public class PanelAddHealthPost extends JPanel{
 	
 	
 	public PanelAddHealthPost(ArrayList<String> listBoxCities,ActionListener listener) {
-		this.setLayout(new GridLayout(4,1));
+		this.setLayout(new GridLayout(3,1));
 		initComponents(listBoxCities,listener);
 	}
 
 	private void initComponents(ArrayList<String> listBoxCities,ActionListener listener) {
-		lblId = new JLabel("Ingrese la id del hospital:");
-		this.add(lblId);
-		txtId = new JTextField();
-		this.add(txtId);
-		
+//		lblId = new JLabel("Ingrese la id del hospital:");
+//		this.add(lblId);
+//		txtId = new JTextField();
+//		this.add(txtId);
+//		
 		lblName = new JLabel("Ingrese el nombre del hospital:");
 		this.add(lblName);
 		txtName = new JTextField();
@@ -74,17 +74,17 @@ public class PanelAddHealthPost extends JPanel{
 	}
 	
 	public void clearField() {
-		setTxtId("");
+		//setTxtId("");
 		setTxtName("");
 	}
 
-	public String getTxtId() {
-		return txtId.getText();
-	}
-
-	public void setTxtId(String text) {
-		this.txtId.setText(text);
-	}
+//	public String getTxtId() {
+//		return txtId.getText();
+//	}
+//
+//	public void setTxtId(String text) {
+//		this.txtId.setText(text);
+//	}
 
 	public String getTxtName() {
 		return txtName.getText();

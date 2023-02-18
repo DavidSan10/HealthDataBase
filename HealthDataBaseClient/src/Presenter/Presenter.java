@@ -18,7 +18,6 @@ import java.util.Timer;
 import java.util.TimerTask;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
-
 import com.google.gson.Gson;
 import ViewDesktop.DesktopView;
 import constants.Constants;
@@ -67,6 +66,7 @@ public class Presenter implements ActionListener, ItemListener {
 	public ArrayList<String> getListHealthPost() throws IOException {
 		output.writeUTF("listHealthPost");
 		String message = input.readUTF();
+		System.out.println("{" + message + "}");
 		return getArrayList(new Gson().fromJson(message, String[].class));
 
 	}
@@ -292,12 +292,14 @@ public class Presenter implements ActionListener, ItemListener {
 	}
 
 	private void createCities() {
-		String id = view.getTxtIdPanelCity();
+		//String id = view.getTxtIdPanelCity();
 		String name = view.getTxtNamePanelCity();
 		try {
 			output.writeUTF("createCities");
-			if (!id.equals("") && !name.equals("")) {
-				City city = new City(id, name);
+			if (!name.equals("")) {
+				//City city = new City(id, name);
+				City city = new City(name);
+				System.out.println("Cliente cuidad" + city);
 				output.writeUTF(new Gson().toJson(city));
 				boolean option = input.readBoolean();
 				if (option) {
@@ -305,9 +307,9 @@ public class Presenter implements ActionListener, ItemListener {
 					view.getJOptionShowMessage("Cuidad Añadida satisfactoriamente", "Correcto",
 							JOptionPane.INFORMATION_MESSAGE);
 				} else {
-					view.getJOptionShowMessage("No se pudo añadir la cuidad", "Error", JOptionPane.ERROR_MESSAGE);
-					view.setTxtIdPanelCity("");
 					view.setTxtNamePanelCity("");
+					view.getJOptionShowMessage("No se pudo añadir la cuidad", "Error", JOptionPane.ERROR_MESSAGE);
+				
 				}
 			} else {
 				view.getJOptionShowMessage("Llene los espacios", "Incorrecto", JOptionPane.ERROR_MESSAGE);
@@ -324,7 +326,6 @@ public class Presenter implements ActionListener, ItemListener {
 			String message = input.readUTF();
 			String[] array = new Gson().fromJson(message, String[].class);
 			refreshCityList(this.getArrayList(array));
-			view.setTxtIdPanelCity("");
 			view.setTxtNamePanelCity("");
 		} catch (IOException e) {
 			e.printStackTrace();
@@ -408,12 +409,12 @@ public class Presenter implements ActionListener, ItemListener {
 
 	private void createHealthPost() {
 		String nameCity = view.getNameCity();
-		String idHealthPost = view.getTxtIdHealthPost();
+		//String idHealthPost = view.getTxtIdHealthPost();
 		String nameHealthPost = view.getNameHealthPost();
 		try {
 			output.writeUTF("createHealthPost");
-			if (!nameCity.equals("") && !idHealthPost.equals("") && !nameHealthPost.equals("")) {
-				HealthPost healthPost = new HealthPost(idHealthPost, nameHealthPost, nameCity);
+			if (!nameCity.equals("") && !nameHealthPost.equals("")) {
+				HealthPost healthPost = new HealthPost(nameHealthPost, nameCity);
 				output.writeUTF(new Gson().toJson(healthPost));
 				boolean option = input.readBoolean();
 				if (option) {
@@ -432,13 +433,20 @@ public class Presenter implements ActionListener, ItemListener {
 			e.printStackTrace();
 		}
 	}
+	
+	
+	
+	//Actualizar aqui
 
 	public void refreshComboBoxHospital() {
 		String message;
 		try {
 			message = input.readUTF();
 			String[] array = new Gson().fromJson(message, String[].class);
+			//view.initComboBoxHospitalPanelPatient(getArrayList(array));
+			System.out.println("Entra a refrescar comboboxHospital" + array);
 			view.initComboBoxHospitalPanelPatient(getArrayList(array));
+			
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -464,6 +472,7 @@ public class Presenter implements ActionListener, ItemListener {
 
 	public ArrayList<String> getArrayList(String[] array) {
 		ArrayList<String> list = new ArrayList<String>();
+		System.out.println("**********************++"+array.length);
 		for (int i = 0; i < array.length; i++) {
 			list.add(array[i]);
 		}
@@ -534,7 +543,6 @@ public class Presenter implements ActionListener, ItemListener {
 			view.dispose();
 			System.exit(0);
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
@@ -543,6 +551,7 @@ public class Presenter implements ActionListener, ItemListener {
 		try {
 			if (input.available() > 0) {
 				String valor = input.readUTF();
+				System.out.println(",,,,,,,,,,,,,,,,,,,,,,,,,,,"+valor);
 				switch (valor) {
 				case Constants.MESSAGE_UPDATE_CITY:
 					getNameCities();

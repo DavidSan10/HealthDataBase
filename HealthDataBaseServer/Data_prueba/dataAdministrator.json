@@ -1,0 +1,478 @@
+{
+  "root": {
+    "data": {
+      "userName": "davidalejandro0903@gmail.com",
+      "password": "david0903",
+      "firstName": "david",
+      "lastName": "galvis",
+      "idString": "1001176070",
+      "typeDocument": "CITIZENSHIP_CARD",
+      "dateOfBirth": "2021-09-26"
+    },
+    "derecha": {
+      "data": {
+        "userName": "laura@gmail.com",
+        "password": "210118",
+        "firstName": "Laura",
+        "lastName": "Chaparro",
+        "idString": "1002480078",
+        "typeDocument": "CITIZENSHIP_CARD",
+        "dateOfBirth": "2003-03-20"
+      },
+      "derecha": {
+        "data": {
+          "userName": "prueba@gmail.com",
+          "password": "prueba123",
+          "firstName": "prueba",
+          "lastName": "administrador",
+          "idString": "238231923",
+          "typeDocument": "PASSPORT",
+          "dateOfBirth": "2000-04-13"
+        },
+        "derecha": {
+          "data": {
+            "userName": "juan@gmail.com",
+            "password": "juan123",
+            "firstName": "juan",
+            "lastName": "perez",
+            "idString": "323129120",
+            "typeDocument": "CITIZENSHIP_CARD",
+            "dateOfBirth": "2000-09-20"
+          },
+          "izquierda": {
+            "data": {
+              "userName": "pepe@gmail.com",
+              "password": "pepe123",
+              "firstName": "pepe",
+              "lastName": "ipo",
+              "idString": "312302745",
+              "typeDocument": "IMMIGRATION_CARD",
+              "dateOfBirth": "1987-10-20"
+            }
+          }
+        },
+        "izquierda": {
+          "data": {
+            "userName": "camilo@gmail.com",
+            "password": "camilo123",
+            "firstName": "camilo",
+            "lastName": "guitierrez",
+            "idString": "2321322313",
+            "typeDocument": "CITIZENSHIP_CARD",
+            "dateOfBirth": "2000-08-20"
+          },
+          "derecha": {
+            "data": {
+              "userName": "pepinito@gmail.com",
+              "password": "123456",
+              "firstName": "pepinito",
+              "lastName": "chabeton",
+              "idString": "23232232",
+              "typeDocument": "CITIZENSHIP_CARD",
+              "dateOfBirth": "2000-10-28"
+            }
+          },
+          "izquierda": {
+            "data": {
+              "userName": "chamo@gmail.com",
+              "password": "chamo123",
+              "firstName": "chamo",
+              "lastName": "torrez",
+              "idString": "231293232",
+              "typeDocument": "IMMIGRATION_CARD",
+              "dateOfBirth": "2001-03-20"
+            },
+            "izquierda": {
+              "data": {
+                "userName": "santiago@gmail.com",
+                "password": "santiago123",
+                "firstName": "santiago",
+                "lastName": "chaparro",
+                "idString": "121393292",
+                "typeDocument": "IDENTITY_CARD",
+                "dateOfBirth": "2006-12-17"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "list": [
+    {
+      "data": {
+        "userName": "davidalejandro0903@gmail.com",
+        "password": "david0903",
+        "firstName": "david",
+        "lastName": "galvis",
+        "idString": "1001176070",
+        "typeDocument": "CITIZENSHIP_CARD",
+        "dateOfBirth": "2021-09-26"
+      },
+      "derecha": {
+        "data": {
+          "userName": "laura@gmail.com",
+          "password": "210118",
+          "firstName": "Laura",
+          "lastName": "Chaparro",
+          "idString": "1002480078",
+          "typeDocument": "CITIZENSHIP_CARD",
+          "dateOfBirth": "2003-03-20"
+        },
+        "derecha": {
+          "data": {
+            "userName": "prueba@gmail.com",
+            "password": "prueba123",
+            "firstName": "prueba",
+            "lastName": "administrador",
+            "idString": "238231923",
+            "typeDocument": "PASSPORT",
+            "dateOfBirth": "2000-04-13"
+          },
+          "derecha": {
+            "data": {
+              "userName": "juan@gmail.com",
+              "password": "juan123",
+              "firstName": "juan",
+              "lastName": "perez",
+              "idString": "323129120",
+              "typeDocument": "CITIZENSHIP_CARD",
+              "dateOfBirth": "2000-09-20"
+            },
+            "izquierda": {
+              "data": {
+                "userName": "pepe@gmail.com",
+                "password": "pepe123",
+                "firstName": "pepe",
+                "lastName": "ipo",
+                "idString": "312302745",
+                "typeDocument": "IMMIGRATION_CARD",
+                "dateOfBirth": "1987-10-20"
+              }
+            }
+          },
+          "izquierda": {
+            "data": {
+              "userName": "camilo@gmail.com",
+              "password": "camilo123",
+              "firstName": "camilo",
+              "lastName": "guitierrez",
+              "idString": "2321322313",
+              "typeDocument": "CITIZENSHIP_CARD",
+              "dateOfBirth": "2000-08-20"
+            },
+            "derecha": {
+              "data": {
+                "userName": "pepinito@gmail.com",
+                "password": "123456",
+                "firstName": "pepinito",
+                "lastName": "chabeton",
+                "idString": "23232232",
+                "typeDocument": "CITIZENSHIP_CARD",
+                "dateOfBirth": "2000-10-28"
+              }
+            },
+            "izquierda": {
+              "data": {
+                "userName": "chamo@gmail.com",
+                "password": "chamo123",
+                "firstName": "chamo",
+                "lastName": "torrez",
+                "idString": "231293232",
+                "typeDocument": "IMMIGRATION_CARD",
+                "dateOfBirth": "2001-03-20"
+              },
+              "izquierda": {
+                "data": {
+                  "userName": "santiago@gmail.com",
+                  "password": "santiago123",
+                  "firstName": "santiago",
+                  "lastName": "chaparro",
+                  "idString": "121393292",
+                  "typeDocument": "IDENTITY_CARD",
+                  "dateOfBirth": "2006-12-17"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "data": {
+        "userName": "laura@gmail.com",
+        "password": "210118",
+        "firstName": "Laura",
+        "lastName": "Chaparro",
+        "idString": "1002480078",
+        "typeDocument": "CITIZENSHIP_CARD",
+        "dateOfBirth": "2003-03-20"
+      },
+      "derecha": {
+        "data": {
+          "userName": "prueba@gmail.com",
+          "password": "prueba123",
+          "firstName": "prueba",
+          "lastName": "administrador",
+          "idString": "238231923",
+          "typeDocument": "PASSPORT",
+          "dateOfBirth": "2000-04-13"
+        },
+        "derecha": {
+          "data": {
+            "userName": "juan@gmail.com",
+            "password": "juan123",
+            "firstName": "juan",
+            "lastName": "perez",
+            "idString": "323129120",
+            "typeDocument": "CITIZENSHIP_CARD",
+            "dateOfBirth": "2000-09-20"
+          },
+          "izquierda": {
+            "data": {
+              "userName": "pepe@gmail.com",
+              "password": "pepe123",
+              "firstName": "pepe",
+              "lastName": "ipo",
+              "idString": "312302745",
+              "typeDocument": "IMMIGRATION_CARD",
+              "dateOfBirth": "1987-10-20"
+            }
+          }
+        },
+        "izquierda": {
+          "data": {
+            "userName": "camilo@gmail.com",
+            "password": "camilo123",
+            "firstName": "camilo",
+            "lastName": "guitierrez",
+            "idString": "2321322313",
+            "typeDocument": "CITIZENSHIP_CARD",
+            "dateOfBirth": "2000-08-20"
+          },
+          "derecha": {
+            "data": {
+              "userName": "pepinito@gmail.com",
+              "password": "123456",
+              "firstName": "pepinito",
+              "lastName": "chabeton",
+              "idString": "23232232",
+              "typeDocument": "CITIZENSHIP_CARD",
+              "dateOfBirth": "2000-10-28"
+            }
+          },
+          "izquierda": {
+            "data": {
+              "userName": "chamo@gmail.com",
+              "password": "chamo123",
+              "firstName": "chamo",
+              "lastName": "torrez",
+              "idString": "231293232",
+              "typeDocument": "IMMIGRATION_CARD",
+              "dateOfBirth": "2001-03-20"
+            },
+            "izquierda": {
+              "data": {
+                "userName": "santiago@gmail.com",
+                "password": "santiago123",
+                "firstName": "santiago",
+                "lastName": "chaparro",
+                "idString": "121393292",
+                "typeDocument": "IDENTITY_CARD",
+                "dateOfBirth": "2006-12-17"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "data": {
+        "userName": "santiago@gmail.com",
+        "password": "santiago123",
+        "firstName": "santiago",
+        "lastName": "chaparro",
+        "idString": "121393292",
+        "typeDocument": "IDENTITY_CARD",
+        "dateOfBirth": "2006-12-17"
+      }
+    },
+    {
+      "data": {
+        "userName": "chamo@gmail.com",
+        "password": "chamo123",
+        "firstName": "chamo",
+        "lastName": "torrez",
+        "idString": "231293232",
+        "typeDocument": "IMMIGRATION_CARD",
+        "dateOfBirth": "2001-03-20"
+      },
+      "izquierda": {
+        "data": {
+          "userName": "santiago@gmail.com",
+          "password": "santiago123",
+          "firstName": "santiago",
+          "lastName": "chaparro",
+          "idString": "121393292",
+          "typeDocument": "IDENTITY_CARD",
+          "dateOfBirth": "2006-12-17"
+        }
+      }
+    },
+    {
+      "data": {
+        "userName": "camilo@gmail.com",
+        "password": "camilo123",
+        "firstName": "camilo",
+        "lastName": "guitierrez",
+        "idString": "2321322313",
+        "typeDocument": "CITIZENSHIP_CARD",
+        "dateOfBirth": "2000-08-20"
+      },
+      "derecha": {
+        "data": {
+          "userName": "pepinito@gmail.com",
+          "password": "123456",
+          "firstName": "pepinito",
+          "lastName": "chabeton",
+          "idString": "23232232",
+          "typeDocument": "CITIZENSHIP_CARD",
+          "dateOfBirth": "2000-10-28"
+        }
+      },
+      "izquierda": {
+        "data": {
+          "userName": "chamo@gmail.com",
+          "password": "chamo123",
+          "firstName": "chamo",
+          "lastName": "torrez",
+          "idString": "231293232",
+          "typeDocument": "IMMIGRATION_CARD",
+          "dateOfBirth": "2001-03-20"
+        },
+        "izquierda": {
+          "data": {
+            "userName": "santiago@gmail.com",
+            "password": "santiago123",
+            "firstName": "santiago",
+            "lastName": "chaparro",
+            "idString": "121393292",
+            "typeDocument": "IDENTITY_CARD",
+            "dateOfBirth": "2006-12-17"
+          }
+        }
+      }
+    },
+    {
+      "data": {
+        "userName": "prueba@gmail.com",
+        "password": "prueba123",
+        "firstName": "prueba",
+        "lastName": "administrador",
+        "idString": "238231923",
+        "typeDocument": "PASSPORT",
+        "dateOfBirth": "2000-04-13"
+      },
+      "derecha": {
+        "data": {
+          "userName": "juan@gmail.com",
+          "password": "juan123",
+          "firstName": "juan",
+          "lastName": "perez",
+          "idString": "323129120",
+          "typeDocument": "CITIZENSHIP_CARD",
+          "dateOfBirth": "2000-09-20"
+        },
+        "izquierda": {
+          "data": {
+            "userName": "pepe@gmail.com",
+            "password": "pepe123",
+            "firstName": "pepe",
+            "lastName": "ipo",
+            "idString": "312302745",
+            "typeDocument": "IMMIGRATION_CARD",
+            "dateOfBirth": "1987-10-20"
+          }
+        }
+      },
+      "izquierda": {
+        "data": {
+          "userName": "camilo@gmail.com",
+          "password": "camilo123",
+          "firstName": "camilo",
+          "lastName": "guitierrez",
+          "idString": "2321322313",
+          "typeDocument": "CITIZENSHIP_CARD",
+          "dateOfBirth": "2000-08-20"
+        },
+        "derecha": {
+          "data": {
+            "userName": "pepinito@gmail.com",
+            "password": "123456",
+            "firstName": "pepinito",
+            "lastName": "chabeton",
+            "idString": "23232232",
+            "typeDocument": "CITIZENSHIP_CARD",
+            "dateOfBirth": "2000-10-28"
+          }
+        },
+        "izquierda": {
+          "data": {
+            "userName": "chamo@gmail.com",
+            "password": "chamo123",
+            "firstName": "chamo",
+            "lastName": "torrez",
+            "idString": "231293232",
+            "typeDocument": "IMMIGRATION_CARD",
+            "dateOfBirth": "2001-03-20"
+          },
+          "izquierda": {
+            "data": {
+              "userName": "santiago@gmail.com",
+              "password": "santiago123",
+              "firstName": "santiago",
+              "lastName": "chaparro",
+              "idString": "121393292",
+              "typeDocument": "IDENTITY_CARD",
+              "dateOfBirth": "2006-12-17"
+            }
+          }
+        }
+      }
+    },
+    {
+      "data": {
+        "userName": "pepe@gmail.com",
+        "password": "pepe123",
+        "firstName": "pepe",
+        "lastName": "ipo",
+        "idString": "312302745",
+        "typeDocument": "IMMIGRATION_CARD",
+        "dateOfBirth": "1987-10-20"
+      }
+    },
+    {
+      "data": {
+        "userName": "juan@gmail.com",
+        "password": "juan123",
+        "firstName": "juan",
+        "lastName": "perez",
+        "idString": "323129120",
+        "typeDocument": "CITIZENSHIP_CARD",
+        "dateOfBirth": "2000-09-20"
+      },
+      "izquierda": {
+        "data": {
+          "userName": "pepe@gmail.com",
+          "password": "pepe123",
+          "firstName": "pepe",
+          "lastName": "ipo",
+          "idString": "312302745",
+          "typeDocument": "IMMIGRATION_CARD",
+          "dateOfBirth": "1987-10-20"
+        }
+      }
+    }
+  ],
+  "count": 3
+}

@@ -34,9 +34,10 @@ public class DesktopView extends  JFrame{
 		this.setLayout(new BorderLayout());
 		this.setSize(1130, 800);
 		this.setIconImage(new ImageIcon(getClass().getResource("/Images/logo.png")).getImage());
-		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);		
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		initComponents(this,listener,itemListener,listBoxCities,listNameHospital,typeView);
-		this.setLocationRelativeTo(null);
+		this.setLocationRelativeTo(null);		
+		this.setResizable(false);
 		this.setVisible(true);
 	}
 	
@@ -265,14 +266,14 @@ public class DesktopView extends  JFrame{
 		popupGeneral.setPanelCity();
 	}
 	
-	public String getTxtIdPanelCity() {
-		return popupGeneral.getTxtId();
-	}
-
-
-	public void setTxtIdPanelCity(String text) {
-		popupGeneral.setTxtId(text);;
-	}
+//	public String getTxtIdPanelCity() {
+//		return popupGeneral.getTxtId();
+//	}
+//
+//
+//	public void setTxtIdPanelCity(String text) {
+//		popupGeneral.setTxtId(text);;
+//	}
 
 
 	public String getTxtNamePanelCity() {
@@ -312,10 +313,10 @@ public class DesktopView extends  JFrame{
 		popupGeneral.clearFieldPanelPatient();
 	}
 	
-
-	public String getTxtIdHealthPost() {
-		return popupGeneral.getTxtIdHealthPost();
-	}
+//
+//	public String getTxtIdHealthPost() {
+//		return popupGeneral.getTxtIdHealthPost();
+//	}
 
 	public String getNameHealthPost() {
 		return popupGeneral.getNameHealthPost();

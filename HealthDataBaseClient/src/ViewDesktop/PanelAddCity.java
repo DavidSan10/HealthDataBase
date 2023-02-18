@@ -12,8 +12,8 @@ import constants.Constants;
 
 public class PanelAddCity extends JPanel{
 	
-	private JLabel lblId;
-	private JTextField txtId;
+	//private JLabel lblId;
+	//private JTextField txtId;
 	private JLabel lblName;
 	private JTextField txtName;
 	private JButton btnAdd;
@@ -26,17 +26,17 @@ public class PanelAddCity extends JPanel{
 	
 	
 	public PanelAddCity(ActionListener listener) {
-		this.setLayout(new GridLayout(3,1));
+		this.setLayout(new GridLayout(2,1));
 		initComponents(listener);
 	}
 
 
 	private void initComponents(ActionListener listener) {
-		lblId = new JLabel("Ingrese el id de la cuidad:");
-		this.add(lblId);
-		txtId = new JTextField();
-		this.add(txtId);
-		
+//		lblId = new JLabel("Ingrese el id de la cuidad:");
+//		this.add(lblId);
+//		txtId = new JTextField();
+//		this.add(txtId);
+//		
 		lblName = new JLabel("Ingrese el nombre de la cuidad:");
 		this.add(lblName);
 		txtName = new JTextField();
@@ -54,14 +54,14 @@ public class PanelAddCity extends JPanel{
 	}
 
 
-	public String getTxtId() {
-		return txtId.getText();
-	}
-
-
-	public void setTxtId(String text) {
-		this.txtId.setText(text);;
-	}
+//	public String getTxtId() {
+//		return txtId.getText();
+//	}
+//
+//
+//	public void setTxtId(String text) {
+//		this.txtId.setText(text);;
+//	}
 
 
 	public String getTxtName() {
@@ -74,7 +74,7 @@ public class PanelAddCity extends JPanel{
 	}
 	
 	public void clearField() {
-		setTxtId("");
+		//setTxtId("");
 		setTxtName("");
 	}
 	

@@ -170,6 +170,9 @@ public class Files {
 			jsonAll = new FileReader("Data2/data.json");
 			//new TypeToken<BinaryTree<HealthPost>>(){}.getType();
 			BinaryTree<HealthPost> BinaryHealthPost = gson.fromJson(jsonAll,new TypeToken<BinaryTree<HealthPost>>(){}.getType());
+			if(BinaryHealthPost == null) {
+				BinaryHealthPost =  new BinaryTree<HealthPost>();
+			}
 		//	BinaryHealthPost.intOrder();
 //			HealthPost[] array = gson.fromJson(aux,HealthPost[].class);
 //			System.out.println(array);
@@ -250,6 +253,12 @@ public class Files {
 			jsonAll = new FileReader("Data2/dataCity.json");
 			BinaryTree<City> treeCities = gson.fromJson(jsonAll, new TypeToken<BinaryTree<City>>(){}.getType());
 			//BinaryTree<City> listCity = getListCity(arrayCities);
+		
+			if(treeCities == null) {
+				treeCities =  new BinaryTree<City>();
+				System.out.println("entra a nulo?");
+			}
+			System.out.println("entraaaaaaaaaa" +  treeCities.getSize());
 			jsonAll.close();
 			return treeCities;
 		} catch (FileNotFoundException e) {
@@ -257,7 +266,7 @@ public class Files {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		return null;
+		return new BinaryTree<City>();
 
 	}
 

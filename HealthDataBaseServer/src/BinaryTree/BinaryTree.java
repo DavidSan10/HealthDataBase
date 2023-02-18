@@ -149,6 +149,7 @@ public class BinaryTree<T> {
 	
 	public void postOrder() {
 		list = new ArrayList<NodeDouble<T>>();
+		System.out.println("entra aqui");
 		postOrder(root);
 	}
 	

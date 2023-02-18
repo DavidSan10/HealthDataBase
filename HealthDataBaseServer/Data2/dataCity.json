@@ -1,65 +1,35 @@
 {
   "root": {
     "data": {
-      "name": "tunja",
+      "name": "BOGOTA",
       "id": "1"
     },
-    "izquierda": {
+    "derecha": {
       "data": {
-        "name": "paipa",
+        "name": "YOPAL",
         "id": "2"
-      },
-      "derecha": {
-        "data": {
-          "name": "sogamoso",
-          "id": "5"
-        },
-        "derecha": {
-          "data": {
-            "name": "tumami",
-            "id": "10"
-          }
-        },
-        "izquierda": {
-          "data": {
-            "name": "santa marta",
-            "id": "8"
-          },
-          "izquierda": {
-            "data": {
-              "name": "pereira",
-              "id": "18"
-            }
-          }
-        }
       },
       "izquierda": {
         "data": {
-          "name": "cucuta",
+          "name": "CHIA",
           "id": "3"
         },
         "derecha": {
           "data": {
-            "name": "cuta",
+            "name": "DUITAMA",
             "id": "4"
           },
           "derecha": {
             "data": {
-              "name": "medellin",
-              "id": "6"
-            },
-            "izquierda": {
-              "data": {
-                "name": "manizales",
-                "id": "7"
-              }
+              "name": "PAIPA",
+              "id": "5"
             }
-          }
-        },
-        "izquierda": {
-          "data": {
-            "name": "cauca",
-            "id": "17"
+          },
+          "izquierda": {
+            "data": {
+              "name": "CUCUTA",
+              "id": "6"
+            }
           }
         }
       }
@@ -68,244 +38,118 @@
   "list": [
     {
       "data": {
-        "name": "cauca",
-        "id": "17"
-      }
-    },
-    {
-      "data": {
-        "name": "cucuta",
-        "id": "3"
-      },
-      "derecha": {
-        "data": {
-          "name": "cuta",
-          "id": "4"
-        },
-        "derecha": {
-          "data": {
-            "name": "medellin",
-            "id": "6"
-          },
-          "izquierda": {
-            "data": {
-              "name": "manizales",
-              "id": "7"
-            }
-          }
-        }
-      },
-      "izquierda": {
-        "data": {
-          "name": "cauca",
-          "id": "17"
-        }
-      }
-    },
-    {
-      "data": {
-        "name": "cuta",
-        "id": "4"
-      },
-      "derecha": {
-        "data": {
-          "name": "medellin",
-          "id": "6"
-        },
-        "izquierda": {
-          "data": {
-            "name": "manizales",
-            "id": "7"
-          }
-        }
-      }
-    },
-    {
-      "data": {
-        "name": "manizales",
-        "id": "7"
-      }
-    },
-    {
-      "data": {
-        "name": "medellin",
-        "id": "6"
-      },
-      "izquierda": {
-        "data": {
-          "name": "manizales",
-          "id": "7"
-        }
-      }
-    },
-    {
-      "data": {
-        "name": "paipa",
-        "id": "2"
-      },
-      "derecha": {
-        "data": {
-          "name": "sogamoso",
-          "id": "5"
-        },
-        "derecha": {
-          "data": {
-            "name": "tumami",
-            "id": "10"
-          }
-        },
-        "izquierda": {
-          "data": {
-            "name": "santa marta",
-            "id": "8"
-          },
-          "izquierda": {
-            "data": {
-              "name": "pereira",
-              "id": "18"
-            }
-          }
-        }
-      },
-      "izquierda": {
-        "data": {
-          "name": "cucuta",
-          "id": "3"
-        },
-        "derecha": {
-          "data": {
-            "name": "cuta",
-            "id": "4"
-          },
-          "derecha": {
-            "data": {
-              "name": "medellin",
-              "id": "6"
-            },
-            "izquierda": {
-              "data": {
-                "name": "manizales",
-                "id": "7"
-              }
-            }
-          }
-        },
-        "izquierda": {
-          "data": {
-            "name": "cauca",
-            "id": "17"
-          }
-        }
-      }
-    },
-    {
-      "data": {
-        "name": "santa marta",
-        "id": "8"
-      },
-      "izquierda": {
-        "data": {
-          "name": "pereira",
-          "id": "18"
-        }
-      }
-    },
-    {
-      "data": {
-        "name": "sogamoso",
-        "id": "5"
-      },
-      "derecha": {
-        "data": {
-          "name": "tumami",
-          "id": "10"
-        }
-      },
-      "izquierda": {
-        "data": {
-          "name": "santa marta",
-          "id": "8"
-        },
-        "izquierda": {
-          "data": {
-            "name": "pereira",
-            "id": "18"
-          }
-        }
-      }
-    },
-    {
-      "data": {
-        "name": "tumami",
-        "id": "10"
-      }
-    },
-    {
-      "data": {
-        "name": "tunja",
+        "name": "BOGOTA",
         "id": "1"
       },
-      "izquierda": {
+      "derecha": {
         "data": {
-          "name": "paipa",
+          "name": "YOPAL",
           "id": "2"
-        },
-        "derecha": {
-          "data": {
-            "name": "sogamoso",
-            "id": "5"
-          },
-          "derecha": {
-            "data": {
-              "name": "tumami",
-              "id": "10"
-            }
-          },
-          "izquierda": {
-            "data": {
-              "name": "santa marta",
-              "id": "8"
-            },
-            "izquierda": {
-              "data": {
-                "name": "pereira",
-                "id": "18"
-              }
-            }
-          }
         },
         "izquierda": {
           "data": {
-            "name": "cucuta",
+            "name": "CHIA",
             "id": "3"
           },
           "derecha": {
             "data": {
-              "name": "cuta",
+              "name": "DUITAMA",
               "id": "4"
             },
             "derecha": {
               "data": {
-                "name": "medellin",
-                "id": "6"
-              },
-              "izquierda": {
-                "data": {
-                  "name": "manizales",
-                  "id": "7"
-                }
+                "name": "PAIPA",
+                "id": "5"
               }
+            },
+            "izquierda": {
+              "data": {
+                "name": "CUCUTA",
+                "id": "6"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "data": {
+        "name": "CHIA",
+        "id": "3"
+      },
+      "derecha": {
+        "data": {
+          "name": "DUITAMA",
+          "id": "4"
+        },
+        "derecha": {
+          "data": {
+            "name": "PAIPA",
+            "id": "5"
+          }
+        },
+        "izquierda": {
+          "data": {
+            "name": "CUCUTA",
+            "id": "6"
+          }
+        }
+      }
+    },
+    {
+      "data": {
+        "name": "DUITAMA",
+        "id": "4"
+      },
+      "derecha": {
+        "data": {
+          "name": "PAIPA",
+          "id": "5"
+        }
+      },
+      "izquierda": {
+        "data": {
+          "name": "CUCUTA",
+          "id": "6"
+        }
+      }
+    },
+    {
+      "data": {
+        "name": "PAIPA",
+        "id": "5"
+      }
+    },
+    {
+      "data": {
+        "name": "YOPAL",
+        "id": "2"
+      },
+      "izquierda": {
+        "data": {
+          "name": "CHIA",
+          "id": "3"
+        },
+        "derecha": {
+          "data": {
+            "name": "DUITAMA",
+            "id": "4"
+          },
+          "derecha": {
+            "data": {
+              "name": "PAIPA",
+              "id": "5"
             }
           },
           "izquierda": {
             "data": {
-              "name": "cauca",
-              "id": "17"
+              "name": "CUCUTA",
+              "id": "6"
             }
           }
         }
       }
     }
   ],
-  "count": 0
+  "count": 5
 }
